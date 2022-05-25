@@ -159,12 +159,12 @@
   --menuMob-text-hover: 'ClashGrotesk-Light';
 
 /*home intro phrase*/
-  --homeMob-intro-size: 3rem;
+  --homeMob-intro-size:3.5rem;
 
 /*titles section*/
   --titlesMob-section-size: 6rem;
   --titlesMob-section-font: 'ClashGrotesk-Medium';
-  --titlesMob-section-lineHeight: 85%;
+  --titlesMob-section-lineHeight: 89%;
 
 /*subtitles next to titles section*/
   --subtitlesMob-size: 2rem;
@@ -282,4 +282,10 @@ p{
 .main-titles{
   font-size:var(--titlesMob-section-size) ;
   line-height: var(--titlesMob-section-lineHeight);
+}
+/*row gap for elements isnide a container*/
+.row-gap{
+  display: flex;
+  flex-direction: column;
+  row-gap:15px ;
 }

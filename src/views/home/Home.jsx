@@ -4,7 +4,7 @@ import './home.css';
 import IntroPhrase from '../../components/intro-phrase/IntroPhrase';
 import Contact from '../../components/contact/Contact';
 import Footer from '../../components/footer/Footer';
-import GetWorks from '../../components/card-work/Card';
+// import GetWorks from '../../components/card-work/Card';
 
 export default function Home() { 
     return <section className='section-home'>

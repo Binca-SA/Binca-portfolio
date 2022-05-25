@@ -23,17 +23,46 @@
         }
 
 /*experience container*/
-.container-about__container-experience{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    column-gap: 16px;
-    row-gap: 16px;
-}
-
-    .container-about__container-experience__circle{
-        width: 17px;
-        height: 17px;
-        background-color: var(--txt-cta);
-        border-radius: 50%;
+    .container-about__container-dates{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        column-gap: 16px;
+        row-gap: 16px;
     }
+
+        .container-about__container-dates__circle{
+            width: 17px;
+            height: 17px;
+            background-color: var(--txt-cta);
+            border-radius: 50%;
+        }
+
+/*ux and front tools*/
+
+    .container-about__tools{
+        display: flex;
+    }
+        .container-about__tools__title{
+            font-size: var(--subtitle-card-size) ;
+            font-family: var(--titlesMob-section-font);
+        }
+        .container-about__tools__list{
+            list-style-type: none;
+            padding-left: 20px;
+            font-size: 1.4rem;
+        }
+
+/*key skills section*/
+    .container-about__container-skills{
+        display: flex;
+        align-items: center;
+        column-gap: 23px;
+        margin-left: 10rem;
+    }
+        .container-about__container-skills__circle{
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            border: 3px solid var(--txt-cta);
+        }

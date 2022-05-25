@@ -1,5 +1,5 @@
-.section-phrase__container{
-    font-size: var(--homeMob-intro-size);
+.section-phrase__container__ph{
+    font-size:var(--homeMob-intro-size) ;
 }
 .section-phrase__container__cta{
     background-color: var(--bg-cta-home);
