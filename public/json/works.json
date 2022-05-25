@@ -1,0 +1,64 @@
+{
+    "uxui": {
+        "name": "UX|UI",
+        "id": "UX|UI",
+        "classes": "filter UX|UI",
+        "elements": [
+            {
+                "id": "About me",
+                "name": "About me",
+                "description": "One page presentation",
+                "tools":"HTML SCSS JS FIGMA",
+                "introduction":"My first work as a UX|UI designer and Frontend. Design and prototyped one page web presentation about me. With horizontal navigation and mobile first designed.",
+                "image1": "resources/img/F__sillascajones.jpg",
+                "image2": "",
+                "goals":"PERSONAL: one of my main objectives was to create something original and dynamic to give movement to the website as it had to be one page. PROFESSIONAL: functional and visually attractive. Apply basic UX | UI rules, such as text construction, eye-catching headers, good colour palette,..",
+                "UX|UI":[
+                    {
+                        "Goals":"",
+                        "Methodologies":[
+                            {
+                                "user flow":"",
+                                "user persona":""
+                            }
+                        ],
+                        "Wireframes":"",
+                        "Tools":"MIRO, FIGMA"
+                    }
+                ],
+                "FRONTEND":[
+                    {
+                        "Goals":"lear about the functionality of horizontal scroll, programm on mobile first size, and have a good organisation in the structuring of the folders.",
+                        "best-practices":[
+                            {
+                                "mobile-first-programming":"mobile first programming",
+                                "Responsive":"Responsive for: mobile, tablet and desktop",
+                                "SCSS":[
+                                    {
+                                        "grid":"grid",
+                                        "flex":"flex",
+                                        "variables":"Use of variables for: colour, spacing, margins, texts..",
+                                        "mixins":"Mixins",
+                                        "gradient":"Animated Gradient"
+                                    }
+                                ],
+                                "HTML": [
+                                    {
+                                        "accesibility":"accessibility on svg and images"
+                                    }
+                                ],
+                                "JAVASCRIPT": [
+                                    {
+                                        "labels":"labels on focus when user it’s on the selected section, that helps ubication. ",
+                                        "gradient": "functionality of the animated gradient made with css:is activated in any section except the home page."
+                                    }
+                                ]
+                            }
+                        ],
+                        "Web on live":"https://frontend.esatid3-2021.com/binca",
+                        "Git":"https://github.com/Binca-SA/projectAlpha"
+                    }
+                ]
+        }]
+    }
+}

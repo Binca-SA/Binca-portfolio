@@ -1,0 +1,285 @@
+/* menu tipography */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&family=Space+Grotesk:wght@400;500&display=swap');
+
+/* text tipo*/
+
+@font-face {
+  font-family: 'ClashGrotesk-Variable';
+  src: 
+      url('../public/fonts/ClashGrotesk-Variable.ttf') format('truetype');
+      font-weight: 200 700;
+      font-display: swap;
+      font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'ClashGrotesk-Extralight';
+  src:
+      url('../public/fonts/ClashGrotesk-Extralight.ttf') format('truetype');
+      font-weight: 200;
+      font-display: swap;
+      font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashGrotesk-Light';
+  src:
+      url('../public/fonts/ClashGrotesk-Light.ttf') format('truetype');
+      font-weight: 300;
+      font-display: swap;
+      font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'ClashGrotesk-Regular';
+  src:
+      url('../public/fonts/ClashGrotesk-Regular.ttf') format('truetype');
+      font-weight: 400;
+      font-display: swap;
+      font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'ClashGrotesk-Medium';
+  src:
+      url('../public/fonts/ClashGrotesk-Medium.ttf') format('truetype');
+      font-weight: 500;
+      font-display: swap;
+      font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'ClashGrotesk-Semibold';
+  src:
+      url('../public/fonts/ClashGrotesk-Semibold.ttf') format('truetype');
+      font-weight: 600;
+      font-display: swap;
+      font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'ClashGrotesk-Bold';
+  src:
+      url('../public/fonts/ClashGrotesk-Bold.ttf') format('truetype');
+      font-weight: 700;
+      font-display: swap;
+      font-style: normal;
+}
+
+
+
+:root{
+/* ---------------VARIABLES COLOUR--------*/
+
+/*bg colour*/
+  --home-bg-color:#DCD6EB;
+  --home-bg-change-yellow: #EFD89C;
+  --home-bg-change-green: #C3DCC1;
+
+/*text colour*/
+  --links-color: #E8464E;
+
+/*cta colour*/
+  --bg-cta-home: #A592D4;
+  --txt-cta: #E8464E;
+
+/* buttons when you active*/
+  --bg-focus-work:#E8464E; 
+
+/*Border radius buttons*/
+  --border-radius-buttons: 43px;
+
+/* VARIABLES TYPE -------desktop-------*/
+
+/*home title*/
+  --home-h1-size: 13.7rem;
+  --home-h1-font: 'ClashGrotesk-Medium';
+/*subtitles*/
+  --home-subtitles-size: 3rem;
+  --home-subtitle-font: 'ClashGrotesk-Regular';
+
+/*topbar*/
+  --text-topbar-size: 3rem;
+  --home-topbar-font: 'Space Grotesk';
+
+/*elements menu*/
+  --menu-texts-size: 7.4rem;
+  --menu-text-font: 'ClashGrotesk-Medium';
+  --menu-text-hover: 'ClashGrotesk-Light';
+
+/*home intro phrase*/
+  --home-intro-size: 8rem;
+
+/*titles section*/
+  --titles-section-size: 12.5rem;
+  --titles-section-font: 'ClashGrotesk-Medium';
+  --titles-section-lineHeight: 85%;
+
+/*subtitles next to titles section*/
+  --subtitles-size: 3.3rem;
+  --subtitles-font: 'ClashGrotesk-Regular';
+  --subtitles-lineHeight: 85%;
+
+/*cards works*/
+  --title-card-size: 4.8rem;
+  --title-card-font: 'ClashGrotesk-Medium';
+  --title-card-lineHeight: 81%;
+
+  --subtitle-card-size: 2.2rem;
+  --subtitle-card-font: 'ClashGrotesk-Light';
+
+/*work section texts*/
+  --intro-work-size: 2.6rem;
+  --intro-work-font:'ClashGrotesk-Regular';
+
+  --desplegable-titles-size: 4rem;
+  --desplegable-titles-font: 'ClashGrotesk-Medium';
+
+
+/* VARIABLES TYPE -------mobil-------*/
+  /*home title*/
+  --homeMob-h1-size: 4.7rem;
+  --homeMob-h1-font: 'ClashGrotesk-Regular';
+/*subtitles*/
+  --homeMob-subtitles-size: 1.5rem;
+  --homeMob-subtitle-font: 'ClashGrotesk-Regular';
+
+/*topbar*/
+  --text-topbarMob-size: 1.8rem;
+  --home-topbarMob-font: 'Space Grotesk';
+
+/*elements menu*/
+  --menuMob-texts-size: 5rem;
+  --menuMob-text-font: 'ClashGrotesk-Medium';
+  --menuMob-text-hover: 'ClashGrotesk-Light';
+
+/*home intro phrase*/
+  --homeMob-intro-size: 3rem;
+
+/*titles section*/
+  --titlesMob-section-size: 6rem;
+  --titlesMob-section-font: 'ClashGrotesk-Medium';
+  --titlesMob-section-lineHeight: 85%;
+
+/*subtitles next to titles section*/
+  --subtitlesMob-size: 2rem;
+  --subtitlesMob-font: 'ClashGrotesk-Regular';
+  --subtitlesMob-lineHeight: 85%;
+
+/*cards works*/
+  --titleMob-card-size: 2.8rem;
+  --titleMob-card-font: 'ClashGrotesk-Medium';
+  --titleMob-card-lineHeight: 81%;
+
+  --subtitleMob-card-size: 1.3rem;
+  --subtitleMob-card-font: 'ClashGrotesk-Light';
+
+/*work section texts*/
+  --introMob-work-size: 1.6rem;
+  --introMob-work-font:'ClashGrotesk-Regular';
+
+  --desplegableMob-titles-size: 2.4rem;
+  --desplegableMob-titles-font: 'ClashGrotesk-Medium';
+
+  /*MARGINS*/
+  --exterior-margin: 45px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%; /* 1rem = 10px; in whole aplication*/
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  width: 100%;
+  background-color: var(--home-bg-color);
+  font-family: 'ClashGrotesk-Regular';
+}
+p{
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+/*HELPERS -> Always at the end of the code*/
+.vh{
+  height: 100vh;
+  margin-right: 45px;
+  margin-left: 45px;
+  margin-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/*make text bolder*/
+.txt-bold{
+  font-family: var(--titlesMob-section-font);
+}
+
+/*spacing*/
+.margin-top{
+  margin-top: 64px;
+}
+.atom-margin-bottom{
+  margin-bottom: 60px;
+}
+/*double spacing*/
+.margin-top-double{
+  margin-top: calc(64px *2);
+}
+.mobile-margin{
+  margin-left:45px ;
+  margin-right: 45px;
+}
+
+/*style red links*/
+.style-link{
+  font-size: var(--subtitlesMob-size);
+  font-family: var(--homeMob-subtitle-font);
+  background: none;
+  border: none;
+  color: var(--txt-cta);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  padding: 0;
+}
+.link{
+  text-decoration: none;
+  color: var(--txt-cta);
+  font-family: var( --home-topbarMob-font);
+}
+/* mobile p*/
+.text-size{
+  font-size:var(--desplegableMob-titles-size) ;
+  margin-bottom: 0;
+}
+/*style numbers section about me*/
+.style-numbers{
+  font-size: 3.5rem;
+  font-family: var(--titlesMob-section-font);
+  color: var(--txt-cta);
+}
+/*atom margin*/
+.atom-margin-link{
+  margin-top: 20px;
+}
+/*style main titles*/
+.main-titles{
+  font-size:var(--titlesMob-section-size) ;
+  line-height: var(--titlesMob-section-lineHeight);
+}

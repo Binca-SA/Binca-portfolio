@@ -1,0 +1,16 @@
+/*INSIDE MENU ELEMENTS*/
+.menu{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-size: var(--menuMob-texts-size);
+    font-family: var(--menuMob-text-font);
+}
+    .nav-menu-items{
+        text-decoration: none;
+        line-height: 96%;
+        color: var(--txt-cta);
+    }
+    .nav-menu-items:hover{
+        font-family:var(--menuMob-text-hover) ;
+    }

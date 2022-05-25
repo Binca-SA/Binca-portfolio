@@ -1,0 +1,14 @@
+.footer{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    padding-left: var(--exterior-margin);
+    padding-right: var(--exterior-margin);
+    font-size: var(--introMob-work-size);
+}
+    .footer__p:last-of-type{
+        align-self: flex-end;
+    }
+    .footer__p span{
+        color: var(--txt-cta);
+    }
