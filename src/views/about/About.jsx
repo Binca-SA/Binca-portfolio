@@ -1,7 +1,5 @@
 import React from 'react';
 import './about.css';
-import Contact from '../../components/contact/Contact';
-import Footer from '../../components/footer/Footer';
 // import Header from '../../components/header/Header';
 
 export default function About() {
@@ -80,7 +78,7 @@ export default function About() {
         </div>
         <div className='container-about__container-dates margin-top'>
             <div className='container-about__container-dates__circle'></div>
-            <p>2017-2021<br></br><b>FINE ARTS & GRAPHIC DESIGN DEGREE</b><br></br>UNIVERSIDAD MIGUEL<br></br>HERNÁNDEZ, ALTEA</p>
+            <p>2017-2021<br></br><b>FINE ARTS & GRAPHIC DESIGN<br></br>DEGREE</b><br></br>UNIVERSIDAD MIGUEL<br></br>HERNÁNDEZ, ALTEA</p>
         </div>
 
         <h2 className='main-titles'>key<br></br>skills</h2>
@@ -123,8 +121,5 @@ export default function About() {
             </div>
         </div>
     </section>
-
-    <Contact></Contact>
-    <Footer></Footer>
     </>
     }

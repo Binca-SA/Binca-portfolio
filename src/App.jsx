@@ -1,14 +1,15 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import { Link, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Home from './views/home/Home'
 import About from './views/about/About';
 // import Home from '/';
-import Archive from './views/archive/Archive';
+// import Archive from './views/archive/Archive';
 import Header from './components/header/Header';
 import NoMatch from './views/nomatch/NoMatch';
-
+import Footer from './components/footer/Footer';
+import Contact from './components/contact/Contact';
 
 function App() {
   return <>
@@ -20,12 +21,13 @@ function App() {
 				
         <Route path="/about" element={<About />} />
 				
-        <Route path="/archive" element={<Archive />} />
+        {/* <Route path="/archive" element={<Archive />} /> */}
 
         <Route path="*" element={<NoMatch />} />
       </Routes>
 	</main>
-  <footer></footer>
+  <Contact></Contact>
+  <Footer></Footer>
 </>;
   
 }
