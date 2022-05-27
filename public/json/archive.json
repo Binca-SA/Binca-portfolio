@@ -1,7 +1,7 @@
 [
     {
         "name": "Ronda & Martínez Abogados",
-        "category": "Graphic Design",
+        "category": "graphic-design",
         "description": "Corporate identity design",
         "tools": ["ILLUSTRATOR", "PHOTOSHOP", "INDESIGN"],
         "img":"",
@@ -16,8 +16,8 @@
     },
     {
         "id": "almond-harmony",
-        "name": "Almond Harmony",
-        "category": "Graphic Design",
+        "name": "Almond-Harmony",
+        "category": "graphic-design",
         "description": "Corporate identity design",
         "tools": ["ILLUSTRATOR", "PHOTOSHOP", "INDESIGN"],
         "img":"",
@@ -31,7 +31,7 @@
     {
         "id": "signane-system",
         "name": "Signane Systme UMH",
-        "category": "Graphic Design",
+        "category": "graphic-design",
         "description": "Corporate identity design",
         "tools": ["ILLUSTRATOR", "PHOTOSHOP", "INDESIGN"],
         "img":"",

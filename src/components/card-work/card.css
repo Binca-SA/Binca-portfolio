@@ -1,3 +1,14 @@
 .container-cards{
     background-color: white;
+    padding-top: 64px;
 }
+    .container-cards__container-btns{
+        display: flex;
+        justify-content: space-between;
+    }
+        .container-cards__container-btns__btns{
+            background: none;
+            border: 1px solid var(--txt-cta) ;
+            padding: 8px 15px 8px 15px;
+            border-radius: 64px;
+        }

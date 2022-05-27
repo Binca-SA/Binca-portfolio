@@ -246,6 +246,10 @@ p{
   margin-left:45px ;
   margin-right: 45px;
 }
+.mobile-padding{
+  padding-left:45px ;
+  padding-right: 45px;
+}
 
 /*style red links*/
 .style-link{
