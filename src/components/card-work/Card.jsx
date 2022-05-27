@@ -1,36 +1,36 @@
-// import { useEffect, useState } from 'react';
-// import './card.css';
-// import axios from 'axios';
-// import React from 'react';
+import { useEffect, useState } from 'react';
+import './card.css';
+import axios from 'axios';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 
-// function GetWorks(){
+function GetWorks(){
 
-//     const [cards, setCards] = useState([]);
+    const [cards, setCards] = useState([]);
 
-//     useEffect(() => {
-//         axios.get('json/elements.json')
-//         .then(response => setCards(response.data));
-//     }, [])
+    useEffect(() => {
+        axios.get('json/works.json')
+        .then(response => setCards(response.data));
+    }, [])
 
-//     return (
-//         <>
-//             <div className='container-card'>
-//                 {cards.map(card => (
-//                     Object.keys
-//                     <h1 key={card.name}>{ card.name }</h1>
-//                     <h1>Tools</h1>
-//                     {card.tools.map(tool => <li>{tool.Goals}</li>)
-//                     {card.projects.map(topic => <h1>{topic.Goals}</h1>)
-//                 }
-//             ))}
-//             </div>
-//         </>
-//     );
-// }
+    return (
+        <>
+            <section className='container-cards'>
+                {cards.map(card => (<>
+                    <div>
+                        <Link to={card.id}>
+                            <p key={card.name}>{ card.name }</p>
+                            <p key={card.description}>{ card.description }</p>
+                            <ul>
+                                <li key={card.tools}>{ card.tools }</li>
+                            </ul>
+                        </Link>
+                    </div>
+                </>))}
+            </section>
+        </>
+    );
+}
 
-
-
-
-
-// export default GetWorks;
+export default GetWorks;
