@@ -22,13 +22,12 @@ function GetWorks(){
             <section className='container-cards mobile-padding'>
                 <h2 className='main-titles'>selected<br></br>works</h2>
                 <div className='container-cards__container-btns'>
-                    <button className='container-cards__container-btns__btns'>UX | UI</button>
                     <button className='container-cards__container-btns__btns'>Frontend</button>
                     <button className='container-cards__container-btns__btns'>Graphic Design</button>
                 </div>
                 {cards.map(card => (<>
                     <div>
-                        <Link to={card.id}>
+                        <Link to={`/${card.category}/${card.id}`}>
                             <p key={card.name}>{ card.name }</p>
                             <p key={card.description}>{ card.description }</p>
                             <ul>

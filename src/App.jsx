@@ -10,7 +10,9 @@ import Header from './components/header/Header';
 import NoMatch from './views/nomatch/NoMatch';
 import Footer from './components/footer/Footer';
 import Contact from './components/contact/Contact';
-import GraphicProject from './views/graphic-project/GraphicProject';
+import Frontend from './components/project-frontend/Frontend';
+import ProjectGraphic from './components/project-graphic/ProjectGraphic';
+
 
 
 
@@ -21,8 +23,9 @@ function App() {
 			<Routes>
 				
         <Route path="/" element={<Home />} />
-				<Route path='/:id' element={<GraphicProject />} />
-      
+				<Route path='/:category/:id' element={<Frontend />}/>
+        <Route path='/:category/:id' element={<ProjectGraphic />}/>
+
         <Route path="/about" element={<About />} />
 				
         <Route path="/archive" element={<Archive />} />

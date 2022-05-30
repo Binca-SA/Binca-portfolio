@@ -2,7 +2,7 @@
     {
         "id": "about-me",
         "name":"About Me",
-        "category": "ux-ui",
+        "category": "frontend",
         "description": "One page presentation",
         "tools": ["HTML", "SCSS", "JS", "FIGMA"],
         "img":"",
@@ -60,7 +60,7 @@
     {
         "id": "terralava",
         "name": "Terralava",
-        "category": "ux-ui",
+        "category": "frontend",
         "description": "Online shop",
         "tools":"HTML SCSS JS FIGMA",
         "introduction":"Front-end design and programming of a dynamic and scalable website for a jewellery store. Sections created: Home, Shop with respective categories and an interactive test for users. Mobile first designed and programmed.",
@@ -116,7 +116,7 @@
     {
         "id": "fran-silvestre-arquitectos",
         "name": "Fran Silvestre Arquitectos",
-        "category": "ux-ui",
+        "category": "frontend",
         "description": "Wbsite design",
         "tools": "FIGMA",
         "img":"",

@@ -8,6 +8,7 @@ export default function About() {
     <section className='container-about mobile-margin ' >
         {/* <Header></Header> */}
         <h1 className='container-about__title main-titles'>5 facts <br></br>about me <span className='subtitle-style'>TO KNOW <br></br>ME BETTER</span></h1>
+        <img className='container-about__img' src='/images/about/profile.jpg' alt='profile image of Binca'></img>
         <div className='container-about__facts-container'>
             <div className='container-about__facts-container__container-text'><span className='style-numbers'>1</span><p>I started my career in the world of art and there i discovered 
                 graphic design, after my career I specialized 
