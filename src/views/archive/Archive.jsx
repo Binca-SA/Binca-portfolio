@@ -2,9 +2,18 @@ import { useEffect, useState } from 'react';
 import React from 'react';
 import axios from 'axios';
 import './archive.css';
+// import Modal from '../../components/modal/Modal';
+
 
 function GetPhotos(){
+    //for modal//
+    const [active, SetActive] = useState(true);
 
+    const toggle = () => {
+        SetActive(!active);
+    }
+
+    //calling JSON//
     const [archive, setArchive] = useState([]);
 
     //getting json//
@@ -23,10 +32,16 @@ function GetPhotos(){
             <div className='container-grid'>
                 {archive.map(photo => (<>
                     <div className='container-grid__cont-photo'>
-                        <img className='container-grid__cont-photo__img' key={photo.img} src={photo.img}></img>
-                        {/* <p key={photo.name}>{ photo.name }</p>
-                        <p key={photo.description}>{ photo.description }</p>
-                        <p key={photo.tools}>{ photo.tools }</p> */}
+                        <button className='container-grid__cont-photo__btn' onClick={toggle}>
+                            <img className='container-grid__cont-photo__img' key={photo.img} src={photo.img}></img>
+                        </button>
+                        {/* <Modal active={active} toggle={toggle}>
+                            <img className='' key={photo.img} src={photo.img}></img>
+                            <p key={photo.name}>{ photo.name }</p>
+                            <p key={photo.description}>{ photo.description }</p>
+                            <p key={photo.tools}>{ photo.tools }</p>
+                        </Modal> */}
+                        
                     </div>
                 </>))}
             </div>

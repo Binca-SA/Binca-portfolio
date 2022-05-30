@@ -17,7 +17,7 @@
     
 }
     .welcome-home__subtitle{
-        font-size: var(--homeMob-subtitles-size);
+        font-size: var(--introMob-work-size);
         font-weight: var(--homeMob-subtitle-font);
         /* font-family: var(--homeMob-subtitle-font); */
         margin-top: 0;

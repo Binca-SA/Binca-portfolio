@@ -13,6 +13,6 @@ export default function IntroHome() {
             <h2 className='welcome-home__subtitle'>DESIGNER</h2>
             <h2 className='welcome-home__subtitle'>WEB DEVELOPER</h2>
         </section>
-        <BgColour></BgColour>
+
     </div>
 }

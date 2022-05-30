@@ -4,6 +4,8 @@
     column-gap: 10px;
     position: fixed;
     bottom: 0;
+    margin-left: 45px;
+    margin-bottom: 45px;
 }
     .container-change-colour__color{
         cursor: pointer;

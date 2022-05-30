@@ -6,7 +6,11 @@
     font-weight: 500;
     font-size: var(--text-topbar-size);
     color: var(--txt-cta);
-    /* position: fixed; */
+    padding-left: 45px;
+    padding-right: 45px;
+    /* margin-top: 45px; */
+    position: fixed;
+    width: 100vw;
 }
     .navbar{
         display: flex;
@@ -20,7 +24,8 @@
         width: 100vw;
         height: 100vh;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
+        padding: 0;
         position: fixed;
         top: 0;
         right: -120%;
@@ -35,7 +40,9 @@
 
         .nav-menu-items{
             /* width: 100%; */
-            padding-left: 0;
+            /* padding-left: 0; */
+            padding: 0;
+            margin: 0;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
@@ -45,6 +52,7 @@
             .navbar-toggle{
                 /* width: 100%;
                 height: 80px; */
+                padding-top: 45px;
                 display: flex;
                 justify-content: flex-end;
                 align-items: flex-start;

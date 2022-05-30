@@ -5,6 +5,7 @@
     background-color: white;
     font-size: var(--menuMob-texts-size);
     font-family: var(--menuMob-text-font);
+    flex: .5;
 }
     .nav-menu-items{
         text-decoration: none;

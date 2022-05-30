@@ -19,12 +19,12 @@
         column-gap: 2rem;
         row-gap: 2rem;
     }
-
+        .container-grid__cont-photo__btn{
+            background: none;
+            border: none;
+        }
         .container-grid__cont-photo__img{
             width: 100%;
             height: 100%;
             border-radius: 14px;
-        }
-        .container-grid__cont-photo__img:nth-child(-1){
-            margin-top: 50px;
         }
