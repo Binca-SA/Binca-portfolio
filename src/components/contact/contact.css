@@ -26,6 +26,7 @@
             text-decoration: underline;
             text-underline-offset: 2px;
             padding: 0;
+            cursor: pointer;
         }
     .containers-p-contact{
         display: flex;
@@ -38,3 +39,40 @@
             text-align: right;
             margin-top: 0;
         }
+
+/*RESPONSIVE DESKTOP*/
+@media (min-width:950px) {
+    /* .section-contact{
+        padding-left: 100px;
+        padding-right: 100px;
+    } */
+    
+            .container-title__title{
+                font-size: var(--titles-section-size);
+                margin-top: 0;
+            }
+            .container-title__cta{
+                align-self: flex-start;
+                margin: 0;
+                font-size: 3rem;
+            }
+    /* .containers-p-contact:nth-last-of-type(2){
+        align-items: flex-end;
+    } */
+    
+    .flex-desk{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 150px;
+        margin-top: 150px;
+    }
+    .container-cv__p, .container-social__p {
+        margin-top: 0;
+    }
+    .flex-desk__row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 12rem;
+    }    
+}

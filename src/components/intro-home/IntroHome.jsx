@@ -1,6 +1,6 @@
 import React from 'react';
 import './introHome.css';
-import BgColour from '../bg-colour-btns/BgColour';
+
 
 export default function IntroHome() {
 

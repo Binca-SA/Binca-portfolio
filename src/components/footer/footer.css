@@ -11,4 +11,15 @@
     }
     .footer__p span{
         color: var(--txt-cta);
+        font-weight: 600;
     }
+
+/*RESPONSIVE DESKTOP*/
+@media (min-width:950px){
+    .footer{
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top:30px;
+        padding-bottom: 30px;
+    }
+}

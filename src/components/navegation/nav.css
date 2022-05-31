@@ -15,3 +15,14 @@
     .nav-menu-items:hover{
         font-family:var(--menuMob-text-hover) ;
     }
+
+/*RESPONSIVE DESKTOP*/
+@media (min-width:700px) {
+    .menu{
+        font-size: var(--menu-texts-size);
+    }
+        .nav-menu-items{
+            width: 100%;
+        }
+        
+}

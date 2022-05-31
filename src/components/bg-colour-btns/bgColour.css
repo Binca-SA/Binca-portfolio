@@ -24,3 +24,15 @@
     .container-change-colour__color:nth-last-child(1){
         background-color: var(--home-bg-change-green);
     }
+
+/*RESPONSIVE DESKTOP*/
+@media (min-width:950px) {
+    .container-change-colour{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .container-change-colour__color{
+        width: 45px;
+        height: 45px;
+    }
+}

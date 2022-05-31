@@ -40,3 +40,22 @@
         margin-top:10px;
         margin-bottom: 10px;
     }
+
+/*RESPONSIVE IPAD*/
+@media (min-width:700px) {
+    .welcome-home__subtitle{
+        font-size: var(--home-subtitles-size) ;
+    }
+    .welcome-home__title{
+        font-size: 10rem;
+    }
+}
+/*RESPONSIVE DESKTOP*/
+@media (min-width:950px) {
+    .welcome-home__subtitle{
+        font-size: var(--home-subtitles-size) ;
+    }
+    .welcome-home__title{
+        font-size: var(--home-h1-size);
+    }
+}

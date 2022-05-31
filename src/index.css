@@ -104,11 +104,11 @@
   --home-subtitle-font: 'ClashGrotesk-Regular';
 
 /*topbar*/
-  --text-topbar-size: 3rem;
+  --text-topbar-size: 4rem;
   --home-topbar-font: 'Space Grotesk';
 
 /*elements menu*/
-  --menu-texts-size: 7.4rem;
+  --menu-texts-size: 8rem;
   --menu-text-font: 'ClashGrotesk-Medium';
   --menu-text-hover: 'ClashGrotesk-Light';
 
@@ -209,9 +209,10 @@ body {
   height: 100%;
   background-color: var(--home-bg-color);
   font-family: 'ClashGrotesk-Regular';
+  overflow-x: hidden;
 }
 p{
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   margin: 0;
 }
 
@@ -237,6 +238,11 @@ p{
 }
 .atom-margin-bottom{
   margin-bottom: 60px;
+}
+@media (min-width:850px) {
+  .atom-margin-bottom{
+    margin-bottom: 0;
+  }
 }
 /*double spacing*/
 .margin-top-double{
@@ -272,6 +278,7 @@ p{
   font-size:var(--desplegableMob-titles-size) ;
   margin-bottom: 0;
 }
+
 /*style numbers section about me*/
 .style-numbers{
   font-size: 3.5rem;
@@ -292,4 +299,19 @@ p{
   display: flex;
   flex-direction: column;
   row-gap:15px ;
+}
+
+
+/*DESKTOP P SIZES*/
+
+@media (min-width:700px) {
+  .text-size{
+    font-size: calc(var(--desplegableMob-titles-size)*1.5);
+  }
+  .style-link{
+    font-size: var(--subtitles-size);
+  }
+  p{
+    font-size: calc(1.7rem*1.7);
+  }
 }

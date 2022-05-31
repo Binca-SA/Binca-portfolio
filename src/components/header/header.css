@@ -4,14 +4,16 @@
     align-items: center;
     font-family: var(---home-topbar-font);
     font-weight: 500;
-    font-size: var(--text-topbar-size);
+    font-size: var(--text-topbarMob-size);
     color: var(--txt-cta);
     padding-left: 45px;
     padding-right: 45px;
-    /* margin-top: 45px; */
-    position: fixed;
+    padding-top: 45px;
+    position: absolute;
+    /* position: fixed; */
     width: 100vw;
 }
+
     .navbar{
         display: flex;
         justify-content: start;
@@ -30,6 +32,7 @@
         top: 0;
         right: -120%;
         transition: 850ms;
+        margin: 0;
     }
 
     .nav-menu.active{
@@ -57,4 +60,24 @@
                 justify-content: flex-end;
                 align-items: flex-start;
                 flex: 1;
+                font-size: 3rem;
             }
+
+/*RESPONSIVE DESKTOP*/
+@media (min-width:950px) {
+    .container-header{
+        font-size: var(--text-topbar-size);
+    }
+    .nav-menu{
+        justify-content: flex-start;
+        width: 50vw;
+        padding-left: 45px;
+        padding-bottom: 45px;
+    }
+    .navbar-toggle{
+        padding-right: 45px;
+    }
+    .menuBars:hover{
+        font-family:var(--menu-text-hover);
+    }
+}

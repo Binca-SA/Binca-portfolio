@@ -18,5 +18,20 @@
     }
     .section-phrase__container__cta:hover{
         text-decoration: underline;
+        font-style: italic;
         text-underline-offset: 2px;
     }
+
+/*RESPONSIVE DESKTOP*/
+@media (min-width:950px) {
+    .section-phrase{
+        justify-content: space-evenly;
+    }
+        .section-phrase__container__ph{
+            font-size:var(--home-intro-size) ;
+        }
+        .section-phrase__container__cta{
+            font-size: 3rem;
+            padding: 15px 17px 15px 17px;
+        }
+}
