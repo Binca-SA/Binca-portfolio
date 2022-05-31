@@ -240,10 +240,10 @@ h1, h2, h3, h4, h5{
   margin-top: 64px;
 }
 .margin-bottom{
-  margin-bottom: 45px;
+  padding-bottom: 45px;
 }
 .atom-margin-bottom{
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 @media (min-width:850px) {
   .atom-margin-bottom{

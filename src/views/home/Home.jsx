@@ -5,6 +5,7 @@ import IntroPhrase from '../../components/intro-phrase/IntroPhrase';
 import GetWorks from '../../components/card-work/Card';
 import BgColour from '../../components/bg-colour-btns/BgColour';
 import { useState } from 'react';
+import Contact from '../../components/contact/Contact';
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
                 <IntroHome></IntroHome>
                 <IntroPhrase></IntroPhrase>
                 <GetWorks></GetWorks>
+                <Contact></Contact>
                 <BgColour changeColor={setStyle}></BgColour>
             </section>
 }

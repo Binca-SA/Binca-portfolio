@@ -13,5 +13,6 @@ export default function BgColour(props) {
 }
 
 BgColour.propTypes = {
-    changeColor: PropTypes.func
+    changeColor: PropTypes.func,
+    children: PropTypes.element
 };

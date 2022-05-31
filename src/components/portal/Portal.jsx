@@ -28,4 +28,4 @@
 // }
 
 
-//NOTAS: children es el contenido q esta detro del componente//
+// //NOTAS: children es el contenido q esta detro del componente//

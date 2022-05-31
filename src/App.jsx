@@ -9,7 +9,7 @@ import Archive from './views/archive/Archive';
 import Header from './components/header/Header';
 import NoMatch from './views/nomatch/NoMatch';
 import Footer from './components/footer/Footer';
-import Contact from './components/contact/Contact';
+// import Contact from './components/contact/Contact';
 import Frontend from './components/project-frontend/Frontend';
 import ProjectGraphic from './components/project-graphic/ProjectGraphic';
 
@@ -39,7 +39,7 @@ function App() {
 
       </Routes>
 	</main>
-  <Contact></Contact>
+  {/* <Contact></Contact> */}
   <Footer></Footer>
 </>;
 }
