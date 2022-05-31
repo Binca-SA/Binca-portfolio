@@ -17,19 +17,24 @@ import ProjectGraphic from './components/project-graphic/ProjectGraphic';
 
 
 function App() {
+
   return <>
 	<Header></Header> 
 	<main>
+  
 			<Routes>
 				
         <Route path="/" element={<Home />} />
-				<Route path='/:category/:id' element={<Frontend />}/>
+				<Route path='/:category'/>
+        <Route path='/:category/:id' element={<Frontend />}/>
+
+        <Route path='/:category'/>
         <Route path='/:category/:id' element={<ProjectGraphic />}/>
 
         <Route path="/about" element={<About />} />
 				
         <Route path="/archive" element={<Archive />} />
-
+        
         <Route path="*" element={<NoMatch />} />
 
       </Routes>

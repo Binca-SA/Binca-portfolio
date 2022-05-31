@@ -9,7 +9,8 @@
     font-size:var(--introMob-work-size) ;
     font-family:'ClashGrotesk-Light';
     line-height: 1.2;
-    /* margin-top: -20px; */
+    margin-top: -20px;
+    margin-bottom: 40px;
 }
 /*container grid*/
     .container-grid{
@@ -28,3 +29,20 @@
             height: 100%;
             border-radius: 14px;
         }
+
+/*RESPONSIVE DESKTOP*/
+@media (min-width:950px){
+    .container-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: stretch;
+    }
+        .container-grid__cont-photo{
+            display:grid;
+        }
+        .subtitle-style__arch{
+            align-self: flex-start;
+            font-size: var(--intro-work-size);
+            margin-left: 200px;
+            margin-top: -40px;
+        }
+}

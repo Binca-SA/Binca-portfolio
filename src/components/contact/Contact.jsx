@@ -2,6 +2,7 @@ import React from 'react';
 import './contact.css';
 
 
+
 export default function Contact() { 
     return <section className='section-contact'>
                 <div className='flex-desk'>

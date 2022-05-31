@@ -215,6 +215,9 @@ p{
   font-size: 1.7rem;
   margin: 0;
 }
+h1, h2, h3, h4, h5{
+  margin: 0;
+}
 
 /*HELPERS -> Always at the end of the code*/
 .vh{
@@ -236,6 +239,9 @@ p{
 .margin-top{
   margin-top: 64px;
 }
+.margin-bottom{
+  margin-bottom: 45px;
+}
 .atom-margin-bottom{
   margin-bottom: 60px;
 }
@@ -249,14 +255,22 @@ p{
   margin-top: calc(64px *2);
 }
 .mobile-margin{
-  margin-left:45px ;
-  margin-right: 45px;
+  padding-left:45px ;
+  padding-right: 45px;
+}
+@media (min-width:850px) {
+  .mobile-margin{
+    padding-left: 150px;
+    padding-right: 150px;
+  }
 }
 .mobile-padding{
   padding-left:45px ;
   padding-right: 45px;
 }
-
+.padding-top{
+  padding-top: 100px;
+}
 /*style red links*/
 .style-link{
   font-size: var(--subtitlesMob-size);
@@ -278,12 +292,22 @@ p{
   font-size:var(--desplegableMob-titles-size) ;
   margin-bottom: 0;
 }
+@media (min-width:950px){
+  .max-width-p{
+    max-width: 35vw;
+  }
+}
 
 /*style numbers section about me*/
 .style-numbers{
   font-size: 3.5rem;
   font-family: var(--titlesMob-section-font);
   color: var(--txt-cta);
+}
+@media (min-width:700px){
+  .style-numbers{
+    font-size: 9rem;
+  }
 }
 /*atom margin*/
 .atom-margin-link{
@@ -294,12 +318,23 @@ p{
   font-size:var(--titlesMob-section-size) ;
   line-height: var(--titlesMob-section-lineHeight);
 }
+@media (min-width:700px){
+  .main-titles{
+    font-size:var(--titles-section-size);
+  }
+}
 /*row gap for elements isnide a container*/
 .row-gap{
   display: flex;
   flex-direction: column;
   row-gap:15px ;
 }
+
+/*background colour*/
+.bg-white{
+  background-color: white;
+}
+
 
 
 /*DESKTOP P SIZES*/

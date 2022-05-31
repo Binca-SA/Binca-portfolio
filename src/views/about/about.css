@@ -8,6 +8,7 @@
     width: 100%;
     height: 100%;
     border-radius: 14px;
+    margin-top:45px ;
     margin-bottom: 45px;
 }
     .subtitle-style{
@@ -50,13 +51,13 @@
         display: flex;
     }
         .container-about__tools__title{
-            font-size: var(--subtitle-card-size) ;
+            font-size: 2.4rem ;
             font-family: var(--titlesMob-section-font);
         }
         .container-about__tools__list{
             list-style-type: none;
             padding-left: 20px;
-            font-size: 1.4rem;
+            font-size: 1.8rem;
         }
 
 /*key skills section*/
@@ -72,3 +73,55 @@
             border-radius: 50%;
             border: 3px solid var(--txt-cta);
         }
+
+
+/*RESPONSIVE DESKTOP*/
+@media (min-width:950px){
+    .subtitle-style{
+        font-size: var(--intro-work-size);
+        align-self: flex-start;
+        margin-left: 530px;
+        margin-top: -35px;
+    }
+    .flex-desk-resp{
+        display: flex;
+        /* justify-content: space-between; */
+        justify-content: center;
+        column-gap: 13rem;
+    }
+    .container-about__img{
+        width: 700px;
+        height: 950px;
+    }
+    .container-about__facts-container{
+        max-width: 1000px;
+        margin-top: 45px;
+    }
+    .container-about__container-dates{
+        margin-top:0 ;
+        
+    }
+        .container-about__container-dates__circle{
+            align-self: center;
+        }
+        .flex{
+            display:flex ;
+        }
+        .justify-end{
+            justify-content: flex-end;
+            column-gap: 10rem;
+        }
+        .desk-padding{
+            padding-left: 150px;
+            padding-right: 150px;
+        }
+    .container-about__tools{
+        flex-direction: column;
+    }
+        .container-about__tools__title{
+            font-size: 6rem;
+        }
+        .container-about__tools__list{
+            font-size: 3rem;
+        }
+}

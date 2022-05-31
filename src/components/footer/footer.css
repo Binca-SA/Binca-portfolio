@@ -2,9 +2,12 @@
     background-color:white;
     display: flex;
     flex-direction: column;
+    row-gap: 2rem;
     padding-left: var(--exterior-margin);
     padding-right: var(--exterior-margin);
     font-size: var(--introMob-work-size);
+    padding-top:30px;
+    padding-bottom: 30px;
 }
     .footer__p:last-of-type{
         align-self: flex-end;
@@ -17,9 +20,9 @@
 /*RESPONSIVE DESKTOP*/
 @media (min-width:950px){
     .footer{
+        padding-left: 150px;
+        padding-right: 150px;
         flex-direction: row;
-        justify-content: space-evenly;
-        padding-top:30px;
-        padding-bottom: 30px;
+        justify-content: space-between;
     }
 }

@@ -4,13 +4,20 @@ import './home.css';
 import IntroPhrase from '../../components/intro-phrase/IntroPhrase';
 import GetWorks from '../../components/card-work/Card';
 import BgColour from '../../components/bg-colour-btns/BgColour';
+import { useState } from 'react';
 
 
-export default function Home() { 
-    return <section className='section-home'>
+export default function Home() {
+    const [backgroundColor, setBackgroundColor] = useState("#DCD6EB");
+    
+    const setStyle = (color) => {
+        setBackgroundColor(color);
+    };
+
+    return <section className='section-home' style={{ background: backgroundColor }}>
                 <IntroHome></IntroHome>
                 <IntroPhrase></IntroPhrase>
-                <GetWorks></GetWorks>   
-                <BgColour></BgColour>
+                <GetWorks></GetWorks>
+                <BgColour changeColor={setStyle}></BgColour>
             </section>
 }

@@ -40,19 +40,26 @@
             margin-top: 0;
         }
 
-/*RESPONSIVE DESKTOP*/
+/*RESPONSIVE ipad y desktop*/
+@media (min-width:700px){
+    .container-title__title{
+        font-size:8rem ;
+    }
+}
 @media (min-width:950px) {
     /* .section-contact{
         padding-left: 100px;
         padding-right: 100px;
     } */
-    
+    .container-title{
+        flex-direction: row;
+    }
             .container-title__title{
                 font-size: var(--titles-section-size);
                 margin-top: 0;
             }
             .container-title__cta{
-                align-self: flex-start;
+                align-self: flex-end;
                 margin: 0;
                 font-size: 3rem;
             }
@@ -62,9 +69,11 @@
     
     .flex-desk{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         margin-bottom: 150px;
         margin-top: 150px;
+        padding-left: 150px;
+        padding-right: 150px;
     }
     .container-cv__p, .container-social__p {
         margin-top: 0;

@@ -26,7 +26,7 @@ function GetPhotos(){
     //printing images//
     return (
         <>
-        <section className=' container-archive mobile-margin'>
+        <section className='bg-white container-archive mobile-margin padding-top'>
             <h1 className='main-titles container-archive__title-archive'>a collection<br></br>of things<br></br>I do<span className='subtitle-style__arch'>ILLUSTRATIONS<br></br>
                 COMPOSITIONS<br></br>PRINTEDS<br></br>COLOR PALETTE<br></br>and more...</span></h1>
             <div className='container-grid'>
@@ -45,7 +45,12 @@ function GetPhotos(){
                     </div>
                 </>))}
             </div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
         </section>
+        
         </>
     );
 }
