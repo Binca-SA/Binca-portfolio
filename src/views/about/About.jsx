@@ -33,7 +33,7 @@ export default function About() {
         
         <div className='flex-end desk-padding'>
             <h2 className='main-titles margin-top margin-bottom'>experience</h2>
-            {/* <div className=''> */}
+            <div className='flex-end__child'>
                 <p className='max-width-p'>I started in the digital world with my studies in Graphic Design. I love layout and design web pages. I like using Figma and SCSS. Another of my hobbies is the user experience in the digital world, creating a friendly and understandable environment for all audiences. My goal is to improve my skills and expand my knowledge, especially in web accessibility and learn more about CSS architecture to make scalable and maintainable projects.</p>
                 <div className='container-about__container-dates margin-top'>
                     <div className='container-about__container-dates__circle'></div>
@@ -42,10 +42,10 @@ export default function About() {
                         <br></br>Intership as Graphic designer<br></br>and content creator for social media.
                     </p>
                 </div>
-            {/* </div> */}
+            </div>
         </div>
 
-        <div className='flex-desk-responsive-tools desk-padding'>
+        <div className='flex-end desk-padding'>
             <div className='container-about__tools margin-top'>
                 <p className='container-about__tools__title'>UX | UI tools</p>
                 <ul className='container-about__tools__list'>
@@ -78,7 +78,7 @@ export default function About() {
                 </ul>
             </div>
         </div>
-        <div className='flex-end desk-padding'>
+        <div className='desk-padding'>
             <h2 className='main-titles margin-top margin-bottom'>education</h2>
             <div className='container-about__container-dates'>
                 <div className='container-about__container-dates__circle'></div>

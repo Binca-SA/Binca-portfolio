@@ -101,39 +101,28 @@
         margin-top:0 ;
         
     }
-        .container-about__container-dates__circle{
-            align-self: center;
-        }
-        .flex-desk-responsive{
-            display:flex ;
-            justify-content: flex-start;
-            column-gap: 10rem;
-        }
-
-        .desk-padding{
-            padding-left: 150px;
-            padding-right: 150px;
-        }
-    .flex-desk-responsive-tools{
-        margin-top: 45px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        column-gap: 15rem;
-    }
-    .container-about__tools{
-        flex-direction: column;
-    }
+    /*experience, tools, skills containers*/
         .container-about__tools__title{
             font-size: 6rem;
         }
         .container-about__tools__list{
             font-size: 3rem;
         }
-    .flex-end{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-   
+        /*experience*/
+        .flex-end{
+            display: flex;
+            justify-content: center;
+        }
+            .max-width-p{
+                margin-top: 20rem;
+            }
+            .container-about__container-dates{
+                margin-top: 10rem;
+            }
+        /* .flex-end__child{
+            display: flex;
+            column-gap: 10rem;
+        } */
+        /*tools*/
+        
 }
