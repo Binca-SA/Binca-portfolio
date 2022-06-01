@@ -23,6 +23,7 @@
         .container-grid__cont-photo__btn{
             background: none;
             border: none;
+            cursor: pointer;
         }
         .container-grid__cont-photo__img{
             width: 100%;

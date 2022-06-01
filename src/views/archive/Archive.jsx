@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import React from 'react';
 import axios from 'axios';
 import './archive.css';
+import Contact from '../../components/contact/Contact';
 // import Modal from '../../components/modal/Modal';
 
 
@@ -50,7 +51,7 @@ function GetPhotos(){
             <br></br>
             <br></br>
         </section>
-        
+        <Contact></Contact>
         </>
     );
 }

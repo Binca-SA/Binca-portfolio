@@ -234,7 +234,11 @@ h1, h2, h3, h4, h5{
 .txt-bold{
   font-family: var(--titlesMob-section-font);
 }
-
+/* @media (min-width:700px) {
+  .txt-bold{
+    font-size: var(--titles-section-size);
+  }
+} */
 /*spacing*/
 .margin-top{
   margin-top: 64px;
@@ -286,6 +290,17 @@ h1, h2, h3, h4, h5{
   text-decoration: none;
   color: var(--txt-cta);
   font-family: var( --home-topbarMob-font);
+}
+.link-properties{
+  text-decoration: none;
+  color: var(--txt-cta);
+}
+.link-properties:visited{
+  text-decoration: none;
+  color: var(--txt-cta);
+  outline: none;
+  
+  
 }
 /* mobile p*/
 .text-size{
