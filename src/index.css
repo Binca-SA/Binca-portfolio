@@ -126,7 +126,7 @@
   --subtitles-lineHeight: 85%;
 
 /*cards works*/
-  --title-card-size: 4.8rem;
+  --title-card-size: 6rem;
   --title-card-font: 'ClashGrotesk-Medium';
   --title-card-lineHeight: 81%;
 
@@ -176,7 +176,7 @@
   --titleMob-card-font: 'ClashGrotesk-Medium';
   --titleMob-card-lineHeight: 81%;
 
-  --subtitleMob-card-size: 1.3rem;
+  --subtitleMob-card-size: 1.6rem;
   --subtitleMob-card-font: 'ClashGrotesk-Light';
 
 /*work section texts*/

@@ -19,7 +19,7 @@ function GetWorks(){
     //printing card works//
     return (
         <>
-            <section className='container-cards mobile-padding margin-bottom'>
+            <section className='container-cards mobile-margin margin-bottom'>
                 <h2 className='main-titles'>selected<br></br>works</h2>
                 <div className='container-cards__container-btns'>
                     <button className='container-cards__container-btns__btns'>Frontend</button>
@@ -27,17 +27,18 @@ function GetWorks(){
                 </div>
                 {cards.map(card => (<>
                     <div className='container-cards__card'>
-                        <Link className='link-properties' to={`/${card.category}/${card.id}`}>
-                            <div className='cont-text'>
-                                <p className='container-cards__card__title' key={card.name}>{ card.name }</p>
-                                <p className='container-cards__card__desc' key={card.description}>{ card.description }</p>
-                                <ul>
-                                    <li key={card.tools}>{ card.tools }</li>
-                                </ul>
-                            </div>
-                            <div className='cont-img'>
-                                <img className='container-cards__card__container-img' src={card.img}></img>
-                            </div>
+                        <Link className='container-cards__card__link link-properties' to={`/${card.category}/${card.id}`}>
+                        
+                                <div className='cont-text'>
+                                    <p className='container-cards__card__title' key={card.name}>{ card.name }</p>
+                                    <p className='container-cards__card__desc' key={card.description}>{ card.description }</p>
+                                    <p className='container-cards__card__tools' key={card.tools}>{ card.tools }</p>
+                                </div>    
+
+                                <div className='cont-img'>
+                                    <img className='container-cards__card__container-img' src={card.img}></img>
+                                </div>
+                            
                         </Link>
                     </div>
                 </>))}

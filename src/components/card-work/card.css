@@ -5,7 +5,7 @@
     .container-cards__container-btns{
         margin-top: 45px;
         display: flex;
-        justify-content: space-between;
+        column-gap: 6rem;
     }
         .container-cards__container-btns__btns{
             background: none;
@@ -13,11 +13,18 @@
             padding: 8px 15px 8px 15px;
             border-radius: 64px;
             margin-bottom: 45px;
+            cursor: pointer;
+        }
+        .container-cards__container-btns__btns:hover{
+            background-color: var(--txt-cta);
+            color: white;
+            transition: all .3s ease-in-out;
+            border: 2px solid var(--txt-cta);
         }
     /*cards design*/
     .container-cards__card{
         display: flex;
-        border: 1.5px solid var(--txt-cta);
+        border: 2px solid var(--txt-cta);
         margin-bottom: 45px;
     }
         .container-cards__card__title{
@@ -26,17 +33,57 @@
         }
         .container-cards__card__desc{
             font-size: var(--subtitleMob-card-size);
-            flex: 1;
+        }
+        .container-cards__card__tools{
+            padding-top: 6rem;
+            margin:0;
         }
         .container-cards__card__container-img{
             width: 100%;
             height: 100%;
+            object-fit: fill;
         }
         .cont-img{
             display: flex;
-            border-top:1.5px solid var(--txt-cta); 
+            border-top:2px solid var(--txt-cta); 
         }
         .cont-text{
+            
             padding: 20px 0 20px 20px ;
             
         }
+
+
+/*RESPONSIVE desktop*/
+@media (min-width:950px){
+    .container-cards__card__link{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+    }
+    .cont-img{
+        align-self: flex-end;
+        border-top: 0;
+        border-left:2px solid var(--txt-cta);
+    }
+    .container-cards__card__title{
+        font-size:var(--title-card-size) ;
+    }
+    .container-cards__card__desc{
+        font-size: 3rem;
+    }
+    /*btns*/
+    .container-cards__container-btns__btns{
+        font-size: var( --intro-work-size);
+        border: 2px solid black;
+    }
+    
+    .container-cards__card__link:hover{
+        background-color: var(--txt-cta);
+        transition: all .3s ease-in-out;
+        color: white;
+        /* content: "VIEW PROJECT"; */
+    }
+}
