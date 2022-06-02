@@ -1,6 +1,18 @@
-// import React, { Component, PropTypes } from "react";
-// import './modal.css';
-// import Portal from "../portal/Portal";
+import React, { Component, PropTypes } from "react";
+import './modal.css';
+
+export default function Modal(props) {
+    const { children, toggle, active } = props;
+
+    return active && (
+            <div className="wrapper">
+                <div className="window">
+                    <button className="closeBtn" onClick={toggle}>X</button>
+                    <div>{children}</div>
+                </div>
+            </div>
+        )
+}
 
 // export default class Modal extends Component {
 //     static PropTypes={

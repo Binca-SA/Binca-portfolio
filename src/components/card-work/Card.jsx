@@ -15,13 +15,15 @@ function GetWorks(){
         .then(response => setCards(response.data));
     }, [])
 
-
+    //TODO:filtered cards//
+    
     //printing card works//
     return (
         <>
             <section className='container-cards mobile-margin margin-bottom'>
                 <h2 className='main-titles'>selected<br></br>works</h2>
                 <div className='container-cards__container-btns'>
+                    <button className='container-cards__container-btns__btns'>UX</button>
                     <button className='container-cards__container-btns__btns'>Frontend</button>
                     <button className='container-cards__container-btns__btns'>Graphic Design</button>
                 </div>
@@ -32,7 +34,7 @@ function GetWorks(){
                                 <div className='cont-text'>
                                     <p className='container-cards__card__title' key={card.name}>{ card.name }</p>
                                     <p className='container-cards__card__desc' key={card.description}>{ card.description }</p>
-                                    <p className='container-cards__card__tools' key={card.tools}>{ card.tools }</p>
+                                    {card.tools.map(tool => <li key={card.tools}>{ tool }</li>)}
                                 </div>    
 
                                 <div className='cont-img'>

@@ -4,7 +4,7 @@
         "name":"About Me",
         "category": "frontend",
         "description": "One page presentation",
-        "tools": "HTML   SCSS   JS   FIGMA",
+        "tools": ["HTML", "SCSS", "JS", "FIGMA"],
         "img":"/images/cards/card-about.jpg",
         "introduction":"My first work as a UX|UI designer and Frontend. Design and prototyped one page web presentation about me. With horizontal navigation and mobile first designed.",
         "image1": "",
@@ -62,7 +62,7 @@
         "name": "Terralava",
         "category": "frontend",
         "description": "Online shop",
-        "tools":"HTML SCSS JS FIGMA",
+        "tools": ["HTML", "SCSS", "JS", "FIGMA"],
         "img": "/images/cards/card-terralava.jpg",
         "introduction":"Front-end design and programming of a dynamic and scalable website for a jewellery store. Sections created: Home, Shop with respective categories and an interactive test for users. Mobile first designed and programmed.",
         "image1": "",
@@ -78,7 +78,7 @@
                 ],
                 "best-practices":"",
                 "Wireframes":"",
-                "Tools":"MIRO, FIGMA"
+                "Tools":["MIRO, FIGMA"]
             },
             {
                 "Goals":"lear about the functionality of horizontal scroll, programm on mobile first size, and have a good organisation in the structuring of the folders.",
@@ -119,7 +119,7 @@
         "name": "Fran Silvestre Arquitectos",
         "category": "frontend",
         "description": "Website design",
-        "tools": "FIGMA",
+        "tools": ["FIGMA"],
         "img":"/images/cards/card-arquitectsjpg.jpg",
         "introduction":"Fran Silvestre Arquitectos is a web redesign proposal made in team with @MariaLara. After a study of the company's website, we saw a series of needs that we could solve.",
         "image1": "",

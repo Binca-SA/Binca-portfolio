@@ -10,4 +10,4 @@ export default function IntroPhrase() {
                     <button className='section-phrase__container__cta'>SEE MY PROJECTS</button>
                 </div>
             </section> 
-}
+};
