@@ -23,11 +23,11 @@ function FrontWorks(){
     return (
     <>
         <section className='container-front-section'>
-            <div className='container-front-section__intro'>
+            {/* <div className='container-front-section__intro'>
                 <h1 key={front.name}>{ front.name }</h1>
                 <video></video>
                 <p key={front.introduction}>{front.introduction}</p>
-            </div>
+            </div> */}
 
             <div className='container-front-section__fixed'>
                 <div className='container-front-section__fixed__cont-btns'>
