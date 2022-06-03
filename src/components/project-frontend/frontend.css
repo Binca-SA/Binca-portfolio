@@ -1,0 +1,36 @@
+.container-front-section{
+    background-color: white;
+}
+
+/*BUTTONS*/
+.container-front-section__fixed__cont-btns{
+    display: flex;
+    column-gap: 3rem;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+    .container-front-section__fixed__cont-btns__btns{
+        background: none;
+        border: 1px solid black;
+        border-radius: 64px;
+        padding: 8px 12px 8px 12px;
+        cursor: pointer;
+        width: 120px;
+    }
+    .container-front-section__fixed__cont-btns__btns:hover{
+        background-color: var(--txt-cta);
+        color: white;
+        transition: all .3s ease-in-out;
+        border: 2px solid var(--txt-cta);
+    }
+
+    /*subtitles*/
+    .cont-subtitles{
+        display: flex;
+        align-items: center;
+        column-gap: .5rem;
+    }
+    .subtitles-work{
+        font-size: var(--subtitlesMob-size);
+        color: var(--txt-cta);
+    }

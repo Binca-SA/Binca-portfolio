@@ -102,6 +102,9 @@
         
     }
     /*experience, tools, skills containers*/
+        .container-about__tools{
+            flex-direction: column;
+        }
         .container-about__tools__title{
             font-size: 6rem;
         }
@@ -109,9 +112,38 @@
             font-size: 3rem;
         }
         /*experience*/
+        .flex-center{
+            display: flex;
+            justify-content: flex-end;
+            padding-left: 150px;
+            padding-right: 150px;
+        }
         .flex-end{
+            margin-top: 45px;
+            display: flex;
+            justify-content: end;
+            column-gap: 28rem;
+            padding-left: 150px;
+            padding-right: 150px;
+        }
+        .row-flex{
+            margin-top:10rem ;
+            display: flex;
+            flex-direction: column;
+        }
+        .flex-end__education{
             display: flex;
             justify-content: center;
+            column-gap: 3rem;
+        }
+        .flex-end__skills{
+            display: flex;
+            justify-content: center;
+            column-gap: 3rem;
+            margin-top: 45px;
+        }
+        .row-gap{
+            margin-top: 27rem;
         }
             .max-width-p{
                 margin-top: 20rem;

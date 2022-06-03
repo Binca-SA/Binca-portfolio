@@ -36,7 +36,7 @@ function GetPhotos(){
                         <button className='container-grid__cont-photo__btn' onClick={() => toggle(photo.title)}>
                             <img className='container-grid__cont-photo__img' key={photo.img} src={photo.img}></img>
                         </button>
-                        <Modal active={active === photo.title} toggle={toggle}>
+                        <Modal className='container-grid__cont-photo__modal' active={active === photo.title} toggle={toggle}>
                             <img className='img-modal' key={photo.img} src={photo.img}></img>
                             <p key={photo.name}>{ photo.name }</p>
                             <p key={photo.description}>{ photo.description }</p>

@@ -167,7 +167,7 @@
   --titlesMob-section-lineHeight: 89%;
 
 /*subtitles next to titles section*/
-  --subtitlesMob-size: 2rem;
+  --subtitlesMob-size: 2.3rem;
   --subtitlesMob-font: 'ClashGrotesk-Regular';
   --subtitlesMob-lineHeight: 85%;
 
@@ -218,7 +218,9 @@ p{
 h1, h2, h3, h4, h5{
   margin: 0;
 }
-
+li{
+  font-size: 1.6rem;
+}
 /*HELPERS -> Always at the end of the code*/
 .vh{
   height: 100vh;
@@ -299,8 +301,12 @@ h1, h2, h3, h4, h5{
   text-decoration: none;
   color: var(--txt-cta);
   outline: none;
-  
-  
+}
+
+/*list style none*/
+.list{
+  list-style: none;
+  padding: 0;
 }
 /* mobile p*/
 .text-size{

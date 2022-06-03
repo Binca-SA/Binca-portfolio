@@ -31,7 +31,7 @@ export default function About() {
                 </div>
             </div>
         
-        <div className='flex-end desk-padding'>
+        <div className='flex-center desk-padding'>
             <h2 className='main-titles margin-top margin-bottom'>experience</h2>
             <div className='flex-end__child'>
                 <p className='max-width-p'>I started in the digital world with my studies in Graphic Design. I love layout and design web pages. I like using Figma and SCSS. Another of my hobbies is the user experience in the digital world, creating a friendly and understandable environment for all audiences. My goal is to improve my skills and expand my knowledge, especially in web accessibility and learn more about CSS architecture to make scalable and maintainable projects.</p>
@@ -78,19 +78,21 @@ export default function About() {
                 </ul>
             </div>
         </div>
-        <div className='desk-padding'>
+        <div className=' flex-end__education desk-padding'>
             <h2 className='main-titles margin-top margin-bottom'>education</h2>
-            <div className='container-about__container-dates'>
-                <div className='container-about__container-dates__circle'></div>
-                <p>2021-2022<br></br><b>MASTER ID3: UX|UI DESIGN,<br></br>FRONT-END & DIGITAL MARKETING</b><br></br>ESAT, VALENCIA</p>
+            <div className='row-flex'>
+                <div className='container-about__container-dates'>
+                    <div className='container-about__container-dates__circle'></div>
+                    <p>2021-2022<br></br><b>MASTER ID3: UX|UI DESIGN,<br></br>FRONT-END & DIGITAL MARKETING</b><br></br>ESAT, VALENCIA</p>
+                </div>
+                <div className='container-about__container-dates margin-top'>
+                    <div className='container-about__container-dates__circle'></div>
+                    <p>2017-2021<br></br><b>FINE ARTS & GRAPHIC DESIGN<br></br>DEGREE</b><br></br>UNIVERSIDAD MIGUEL<br></br>HERNÁNDEZ, ALTEA</p>
+                </div>
             </div>
-            <div className='container-about__container-dates margin-top'>
-                <div className='container-about__container-dates__circle'></div>
-                <p>2017-2021<br></br><b>FINE ARTS & GRAPHIC DESIGN<br></br>DEGREE</b><br></br>UNIVERSIDAD MIGUEL<br></br>HERNÁNDEZ, ALTEA</p>
-            </div>
+        </div>
     
-    
-
+        <div className=' flex-end__skills desk-padding'>
             <h2 className='main-titles margin-top margin-bottom'>key<br></br>skills</h2>
             <div className='row-gap '>
                 <div className='container-about__container-skills'>
