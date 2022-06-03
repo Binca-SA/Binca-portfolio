@@ -5,15 +5,16 @@
     .container-cards__container-btns{
         margin-top: 45px;
         display: flex;
-        column-gap: 6rem;
+        column-gap: 2rem;
     }
         .container-cards__container-btns__btns{
             background: none;
             border: 1px solid black ;
-            padding: 8px 15px 8px 15px;
+            
             border-radius: 64px;
             margin-bottom: 45px;
             cursor: pointer;
+            width: 100px;
         }
         .container-cards__container-btns__btns:hover{
             background-color: var(--txt-cta);
@@ -36,7 +37,14 @@
         }
         .container-cards__card__tools{
             padding-top: 6rem;
+            padding-left: 0;
             margin:0;
+            list-style: none;
+            display: flex;
+            gap: 2.5rem;
+            row-gap: 1rem;
+            font-size: 1.3rem;
+            flex-wrap: wrap;
         }
         .container-cards__card__container-img{
             width: 100%;
@@ -48,9 +56,7 @@
             border-top:2px solid var(--txt-cta); 
         }
         .cont-text{
-            
             padding: 20px 0 20px 20px ;
-            
         }
 
 
@@ -68,16 +74,25 @@
         border-top: 0;
         border-left:2px solid var(--txt-cta);
     }
+    .cont-text{
+        display: flex;
+        flex-direction: column;
+    }
     .container-cards__card__title{
         font-size:var(--title-card-size) ;
     }
-    .container-cards__card__desc{
+    .container-cards__card__desc, .container-cards__card__tools{
         font-size: 3rem;
+    }
+    .container-cards__card__desc{
+        flex: 1;
     }
     /*btns*/
     .container-cards__container-btns__btns{
         font-size: var( --intro-work-size);
         border: 2px solid black;
+        width: 250px;
+        padding: 8px 14px 8px 14px;
     }
     
     .container-cards__card__link:hover{
