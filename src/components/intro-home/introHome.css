@@ -33,6 +33,29 @@
     .welcome-home__subtitle:nth-last-child(3){
         align-self: flex-end;
     }
+    .welcome-home__subtitle:nth-last-child(3){
+        overflow: hidden;
+        border-right: .1em solid var(--txt-cta);
+        white-space: nowrap;
+        letter-spacing: .15em;
+        animation:typing 4s steps(20, end), blink-caret .75s step-end infinite; 
+        
+
+        /* animation-iteration-count: 2, 0,  infinite; */
+    }
+    /* The typing effect */
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 50% }
+    }
+    
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: var(--txt-cta); }
+    }
+    
+
 
     .welcome-home__title{
         font-size:var(--homeMob-h1-size) ;

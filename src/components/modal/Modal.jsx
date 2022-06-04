@@ -8,7 +8,7 @@ export default function Modal(props) {
             <div className="wrapper">
                 <div className="window">
                     <button className="closeBtn" onClick={toggle}>X</button>
-                    <div>{children}</div>
+                    <div className="cont-photo">{children}</div>
                 </div>
             </div>
         )
