@@ -40,6 +40,9 @@
         .container-grid__cont-photo{
             display:grid;
         }
+        .container-grid__cont-photo__img:hover{
+            border-radius: 0;
+        } 
         .subtitle-style__arch{
             align-self: flex-start;
             font-size: var(--intro-work-size);
@@ -48,7 +51,7 @@
         }
 }
 
-/* .img-modal{
-    width: 100%;
-    height: 100%;
-} */
+.img-modal{
+    width: 80rem;
+    height: 80rem;
+}

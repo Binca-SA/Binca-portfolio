@@ -101,7 +101,7 @@
         margin-top:0 ;
         
     }
-    /*experience, tools, skills containers*/
+    /* experience, tools, skills containers
         .container-about__tools{
             flex-direction: column;
         }
@@ -112,7 +112,7 @@
             font-size: 3rem;
         }
         /*experience*/
-        .flex-center{
+        /* .flex-center{
             display: flex;
             justify-content: flex-end;
             padding-left: 150px;
@@ -150,7 +150,7 @@
             }
             .container-about__container-dates{
                 margin-top: 10rem;
-            }
+            } */ 
         /* .flex-end__child{
             display: flex;
             column-gap: 10rem;

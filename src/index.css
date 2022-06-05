@@ -266,8 +266,8 @@ li{
 }
 @media (min-width:850px) {
   .mobile-margin{
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 240px;
+    padding-right: 240px;
   }
 }
 .mobile-padding{
@@ -287,6 +287,7 @@ li{
   text-decoration: underline;
   text-underline-offset: 2px;
   padding: 0;
+  cursor: pointer;
 }
 .link{
   text-decoration: none;
@@ -318,7 +319,10 @@ li{
     max-width: 35vw;
   }
 }
-
+/*pharagraphs fit content*/
+.fit-content{
+  max-width: fit-content;
+}
 /*style numbers section about me*/
 .style-numbers{
   font-size: 3.5rem;

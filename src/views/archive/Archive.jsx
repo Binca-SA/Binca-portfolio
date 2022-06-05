@@ -39,8 +39,8 @@ function GetPhotos(){
                         <Modal className='container-grid__cont-photo__modal' active={active === photo.title} toggle={toggle}>
                             <img className='img-modal' key={photo.img} src={photo.img}></img>
                             <p key={photo.name}>{ photo.name }</p>
-                            <p key={photo.description}>{ photo.description }</p>
-                            <p key={photo.tools}>{ photo.tools }</p>
+                            <p className='fit-content' key={photo.description}>{ photo.description }</p>
+                            <p key={photo.tools}><i>{ photo.tools }</i></p>
                         </Modal>
                     </div>
                 </>))}
