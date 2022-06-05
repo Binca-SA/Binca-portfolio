@@ -123,6 +123,7 @@
         margin-top: 10rem;
         display: flex;
         justify-content: flex-start;
+        
         /* padding-left: 90rem; */
         position: relative;
         margin-left: 250px;
@@ -131,7 +132,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        
+        row-gap: 6rem;
     }
     .flex-column{
         display: flex;
@@ -154,7 +155,11 @@
         /* padding-left: 150px;
         padding-right: 150px; */
     }
-    
+    .row-flex{
+        display: flex;
+        flex-direction: column;
+        row-gap: 6rem;
+    }
     /*styling intro photo and facts*/
     .subtitle-style{
         font-size: var(--desplegable-titles-size);
