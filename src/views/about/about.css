@@ -1,33 +1,60 @@
-
-.container-about__title{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.container-about{
+    background:  radial-gradient(92.37% 92.37% at 37.96% 11.51%, var(--home-bg-change-green) 0%, var(--home-bg-color) 64.11%, var(--home-bg-change-yellow) 100%) ;
+    background-size: 400% 400%;
+    animation: gradient 20s ease-in-out infinite;
 }
-.container-about__img{
-    width: 100%;
-    height: 100%;
-    border-radius: 14px;
-    margin-top:45px ;
-    margin-bottom: 45px;
-}
-    .subtitle-style{
-        font-size:var(--introMob-work-size) ;
-        font-family:'ClashGrotesk-Light';
-        align-self: flex-end;
-        line-height: 1;
-    }
-    .container-about__facts-container{
-        display: flex;
-        row-gap: 6rem;
-        flex-direction: column;
-    }
-        .container-about__facts-container__container-text{
-            display: flex;
-            column-gap: 2rem;
-            align-content: space-between;
-            align-items: flex-start;
+/*BACKGROUND ANIMATION*/
+    @-webkit-keyframes gradient {
+        0% {
+        background-position: 0% 400%;
         }
+        50% {
+        background-position: 100% 450%;
+        }
+        100% {
+        background-position: 0% 400%;
+        }
+    }
+    @keyframes gradient {
+        0% {
+        background-position: 0% 400%;
+        }
+        50% {
+        background-position: 100% 450%;
+        }
+        100% {
+        background-position: 0% 400%;
+        }
+    }
+    .container-about__title{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .container-about__img{
+        width: 100%;
+        height: 100%;
+        border-radius: 14px;
+        margin-top:45px ;
+        margin-bottom: 45px;
+    }
+        .subtitle-style{
+            font-size:var(--introMob-work-size) ;
+            font-family:'ClashGrotesk-Light';
+            align-self: flex-end;
+            line-height: 1;
+        }
+        .container-about__facts-container{
+            display: flex;
+            row-gap: 6rem;
+            flex-direction: column;
+        }
+            .container-about__facts-container__container-text{
+                display: flex;
+                column-gap: 2rem;
+                align-content: space-between;
+                align-items: flex-start;
+            }
 
 /*experience container*/
     .container-about__container-dates{
@@ -76,17 +103,68 @@
 
 
 /*RESPONSIVE DESKTOP*/
-@media (min-width:950px){
+
+@media (min-width:3000px){
+    .flex-center{
+        margin-left: 45rem;
+    }
+}
+@media (min-width:1000px){
+    /*helpers*/
+    .margin-left{
+        margin-left: 40rem;
+    }
+    .rotation{
+        transform: rotate(-90deg);
+        position: absolute;
+        transform-origin: 35% 280% ;
+    }
+    .flex{
+        margin-top: 10rem;
+        display: flex;
+        justify-content: flex-start;
+        /* padding-left: 90rem; */
+        position: relative;
+        margin-left: 250px;
+    }
+    .flex-center{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .flex-column{
+        display: flex;
+        column-gap: 36rem;
+        margin-bottom: 45px;
+        /* justify-content: space-between; */
+    }
+    .margin-top-desk{
+        margin-top: 100px;
+    }
+    .atom-mrgn{
+        margin-top: -.5rem;
+    }
+    .flex-end{
+        margin-top: 50rem;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: flex-end;
+        column-gap: 28rem;
+        /* padding-left: 150px;
+        padding-right: 150px; */
+    }
+    
+    /*styling intro photo and facts*/
     .subtitle-style{
-        font-size: var(--intro-work-size);
+        font-size: var(--desplegable-titles-size);
         align-self: flex-start;
-        margin-left: 530px;
-        margin-top: -35px;
+        /* margin-left: 530px;
+        margin-top: -35px; */
     }
     .flex-desk-resp{
         display: flex;
         
-        justify-content: center;
         column-gap: 13rem;
     }
     .container-about__img{
@@ -97,9 +175,24 @@
         max-width: 1000px;
         margin-top: 45px;
     }
-    .container-about__container-dates{
-        margin-top:0 ;
+    .style-numbers{
+        font-size:10rem ;
+    }
+    /*experience, tools. skills CONTAINERS*/
+    .container-about__tools{
+        flex-direction: column;
+        justify-content: center;
+    }
+        .container-about__tools__title{
+            font-size: 4.5rem;
+        }
         
+    .container-about__container-skills{
+        margin-left: 0;
+    }
+    .container-about__container-skills__circle{
+        width: 17px;
+        height: 17px;
     }
     /* experience, tools, skills containers
         .container-about__tools{
@@ -118,14 +211,7 @@
             padding-left: 150px;
             padding-right: 150px;
         }
-        .flex-end{
-            margin-top: 45px;
-            display: flex;
-            justify-content: end;
-            column-gap: 28rem;
-            padding-left: 150px;
-            padding-right: 150px;
-        }
+        
         .row-flex{
             margin-top:10rem ;
             display: flex;

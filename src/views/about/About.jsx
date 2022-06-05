@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
 // import Header from '../../components/header/Header';
-import Contact from '../../components/contact/Contact';
+// import Contact from '../../components/contact/Contact';
 export default function About() {
 
     return<> 
@@ -9,7 +9,7 @@ export default function About() {
         {/* <Header></Header> */}
         
             <h1 className='container-about__title main-titles'>5 facts <br></br>about me <span className='subtitle-style'>TO KNOW <br></br>ME BETTER</span></h1>
-            <div className='flex-desk-resp'>
+            <div className='flex-desk-resp marg-bottom'>
                 <img className='container-about__img' src='/images/about/profile.jpg' alt='profile image of Binca'></img>
                 <div className='container-about__facts-container'>
                     <div className='container-about__facts-container__container-text'><span className='style-numbers'>1</span><p>I started my career in the world of art and there i discovered 
@@ -31,13 +31,13 @@ export default function About() {
                 </div>
             </div>
         
-        <div className='flex-center desk-padding'>
-            <h2 className='main-titles margin-top margin-bottom'>experience</h2>
-            <div className='flex-end__child'>
+        <div className='flex  desk-padding'>
+            <h2 className='main-titles rotation margin-top margin-bottom'>Experience</h2>
+            <div className='flex-center'>
                 <p className='max-width-p'>I started in the digital world with my studies in Graphic Design. I love layout and design web pages. I like using Figma and SCSS. Another of my hobbies is the user experience in the digital world, creating a friendly and understandable environment for all audiences. My goal is to improve my skills and expand my knowledge, especially in web accessibility and learn more about CSS architecture to make scalable and maintainable projects.</p>
                 <div className='container-about__container-dates margin-top'>
                     <div className='container-about__container-dates__circle'></div>
-                    <p><span>Jun. 2021 - Sept. 2021</span><br></br>
+                    <p className=''><span>Jun. 2021 - Sept. 2021</span><br></br>
                         <b>Mediterrànnia Creativa -<br></br> Advertising and marketing agency</b>
                         <br></br>Intership as Graphic designer<br></br>and content creator for social media.
                     </p>
@@ -63,7 +63,7 @@ export default function About() {
             </div>
 
             <div className='container-about__tools margin-top'>
-                <p className='container-about__tools__title'>UX | UI tools</p>
+                <p className='container-about__tools__title'>FRONTEND tools</p>
                 <ul className='container-about__tools__list'>
                     <li>HTML</li>
                     <li>CSS3</li>
@@ -78,58 +78,60 @@ export default function About() {
                 </ul>
             </div>
         </div>
-        <div className=' flex-end__education desk-padding'>
-            <h2 className='main-titles margin-top margin-bottom'>education</h2>
-            <div className='row-flex'>
-                <div className='container-about__container-dates'>
-                    <div className='container-about__container-dates__circle'></div>
-                    <p>2021-2022<br></br><b>MASTER ID3: UX|UI DESIGN,<br></br>FRONT-END & DIGITAL MARKETING</b><br></br>ESAT, VALENCIA</p>
-                </div>
-                <div className='container-about__container-dates margin-top'>
-                    <div className='container-about__container-dates__circle'></div>
-                    <p>2017-2021<br></br><b>FINE ARTS & GRAPHIC DESIGN<br></br>DEGREE</b><br></br>UNIVERSIDAD MIGUEL<br></br>HERNÁNDEZ, ALTEA</p>
+        <div className='flex-column'>
+            <div className='margin-top-desk desk-padding'>
+                <h2 className='main-titles margin-top margin-bottom'>education</h2>
+                <div className='row-flex'>
+                    <div className='container-about__container-dates'>
+                        <div className='container-about__container-dates__circle'></div>
+                        <p>2021-2022<br></br><b>MASTER ID3: UX|UI DESIGN,<br></br>FRONT-END & DIGITAL MARKETING</b><br></br>ESAT, VALENCIA</p>
+                    </div>
+                    <div className='container-about__container-dates margin-top'>
+                        <div className='container-about__container-dates__circle'></div>
+                        <p>2017-2021<br></br><b>FINE ARTS & GRAPHIC DESIGN<br></br>DEGREE</b><br></br>UNIVERSIDAD MIGUEL<br></br>HERNÁNDEZ, ALTEA</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    
-        <div className=' flex-end__skills desk-padding'>
-            <h2 className='main-titles margin-top margin-bottom'>key<br></br>skills</h2>
-            <div className='row-gap '>
-                <div className='container-about__container-skills'>
-                    <div className='container-about__container-skills__circle'></div>
-                    <p>Design system</p>
-                </div>
-                <div className='container-about__container-skills'>
-                    <div className='container-about__container-skills__circle'></div>
-                    <p>Figma prototyping</p>
-                </div>
-                <div className='container-about__container-skills'>
-                    <div className='container-about__container-skills__circle'></div>
-                    <p>User experience design</p>
-                </div>
-                <div className='container-about__container-skills'> 
-                    <div className='container-about__container-skills__circle'></div>
-                    <p>User interface design</p>
-                </div>
-                <div className='container-about__container-skills'>
-                    <div className='container-about__container-skills__circle'></div>
-                    <p>BEM methodology</p>
-                </div>
-                <div className='container-about__container-skills'>
-                    <div className='container-about__container-skills__circle'></div>
-                    <p>Accesibility atention</p>
-                </div>
-                <div className='container-about__container-skills'>
-                    <div className='container-about__container-skills__circle'></div>
-                    <p>Atention to detail</p>
-                </div>
-                <div className='container-about__container-skills'>
-                    <div className='container-about__container-skills__circle'></div>
-                    <p>Creative resolution</p>
-                </div>
-                <div className='container-about__container-skills'>
-                    <div className='container-about__container-skills__circle'></div>
-                    <p>Adaptability to change</p>
+        
+            <div className='margin-top-desk'>
+                <h2 className='main-titles margin-top margin-bottom'>key<br></br>skills</h2>
+                <div className='row-gap '>
+                    <div className='container-about__container-skills'>
+                        <div className='container-about__container-skills__circle'></div>
+                        <li className='list'>Design system</li>
+                    </div>
+                    <div className='container-about__container-skills'>
+                        <div className='container-about__container-skills__circle'></div>
+                        <li className='list'>Figma prototyping</li>
+                    </div>
+                    <div className='container-about__container-skills'>
+                        <div className='container-about__container-skills__circle'></div>
+                        <li className='list'>User experience design</li>
+                    </div>
+                    <div className='container-about__container-skills'> 
+                        <div className='container-about__container-skills__circle'></div>
+                        <li className='list'>User interface design</li>
+                    </div>
+                    <div className='container-about__container-skills'>
+                        <div className='container-about__container-skills__circle'></div>
+                        <li className='list'>BEM methodology</li>
+                    </div>
+                    <div className='container-about__container-skills'>
+                        <div className='container-about__container-skills__circle'></div>
+                        <li className='list'>Accesibility atention</li>
+                    </div>
+                    <div className='container-about__container-skills'>
+                        <div className='container-about__container-skills__circle'></div>
+                        <li className='list'>Atention to detail</li>
+                    </div>
+                    <div className='container-about__container-skills'>
+                        <div className='container-about__container-skills__circle'></div>
+                        <li className='list'>Creative resolution</li>
+                    </div>
+                    <div className='container-about__container-skills'>
+                        <div className='container-about__container-skills__circle'></div>
+                        <li className='list'>Adaptability to change</li>
+                    </div>
                 </div>
             </div>
         </div>
@@ -138,6 +140,6 @@ export default function About() {
         <br></br>
         <br></br>
     </section>
-    <Contact></Contact>
+    {/* <Contact></Contact> */}
     </>
     }

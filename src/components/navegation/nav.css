@@ -11,6 +11,7 @@
         text-decoration: none;
         line-height: 96%;
         color: var(--txt-cta);
+        
     }
     .nav-menu-items:hover{
         font-family:var(--menuMob-text-hover) ;
@@ -23,6 +24,7 @@
     }
         .nav-menu-items{
             width: 100%;
+            font-size: var(--main-titles);
         }
         
 }

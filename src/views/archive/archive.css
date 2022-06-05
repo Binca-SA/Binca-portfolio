@@ -45,9 +45,9 @@
         } 
         .subtitle-style__arch{
             align-self: flex-start;
-            font-size: var(--intro-work-size);
-            margin-left: 200px;
-            margin-top: -40px;
+            font-size: var(--desplegable-titles-size);
+            margin-left: 300px;
+            margin-top: -60px;
         }
 }
 

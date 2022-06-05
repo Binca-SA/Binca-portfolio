@@ -97,6 +97,7 @@
 /* VARIABLES TYPE -------desktop-------*/
 
 /*home title*/
+  --main-titles:13rem;
   --home-h1-size: 15.7rem;
   --home-h1-font: 'ClashGrotesk-Medium';
 /*subtitles*/
@@ -215,12 +216,21 @@ p{
   font-size: 1.7rem;
   margin: 0;
 }
+
 h1, h2, h3, h4, h5{
   margin: 0;
 }
 li{
   font-size: 1.6rem;
 }
+@media (min-width:850px) {
+  li{
+    font-size: 3rem;
+  }
+}
+/* ul li::before {
+  color: var(--bg-focus-work);
+} */
 /*HELPERS -> Always at the end of the code*/
 .vh{
   height: 100vh;
@@ -244,6 +254,11 @@ li{
 /*spacing*/
 .margin-top{
   margin-top: 64px;
+}
+@media (min-width:850px){
+  .margin-top{
+    margin-top: 0;
+  }
 }
 .margin-bottom{
   padding-bottom: 45px;
@@ -343,9 +358,9 @@ li{
   font-size:var(--titlesMob-section-size) ;
   line-height: var(--titlesMob-section-lineHeight);
 }
-@media (min-width:700px){
+@media (min-width:900px){
   .main-titles{
-    font-size:var(--titles-section-size);
+    font-size:20rem;
   }
 }
 /*row gap for elements isnide a container*/

@@ -76,6 +76,7 @@
     }
     .navbar-toggle{
         padding-right: 45px;
+        font-size: 5rem;
     }
     .menuBars:hover{
         font-family:var(--menu-text-hover);
