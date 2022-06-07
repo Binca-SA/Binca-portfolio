@@ -3,6 +3,7 @@
         "id": "about-me",
         "name":"About Me",
         "category": "frontend",
+        "filter":["Frontend", "UX | UI"],
         "description": "One page presentation",
         "tools": ["HTML", "SCSS", "JS", "FIGMA"],
         "img":"/images/cards/card-about.jpg",
@@ -19,11 +20,24 @@
         "bestPractices3":"Simple navigation system, by means of a menu at the top on desktop",
         "bestPractices4":"The navigation menu on mobile devices is located at the bottom to facilitate the use of this, so the user makes less effort to reach each section and does not have to do it with both hands or extending the thumb, simply in the natural position in which he takes the mobile can navigate without difficulty.",
         "bestPractices5":"To create some atmosphere, dynamism and depth to the website I incorporated an animated background with gradients.",
-        "wireframes":"",
+        "wireframes":"/images/works/about/wireframes-about-comp.jpg",
         "":"",
         "frontGoal": "Learn about the functionality of horizontal scroll, programm on mobile first size, and have a good organisation in the structuring of the folders",
-        
-        "filter": [
+        "bestPracticesF1":"mobile first programming",
+        "bestPracticesF2":"Responsive for: mobile, tablet and desktop",
+        "scss":"SCSS",
+        "scss1":"Grid",
+        "scss2":"Flex",
+        "scss3":"Use of variables, mixins, nested classes ",
+        "scss4":"Animated gradient",
+        "html":"HTML",
+        "html1":"Accessibility on svg and images",
+        "js":"JAVASCRIPT",
+        "js1":"Labels on focus when user it’s on the selected section, that helps ubication.",
+        "js2":"Functionality of the animated gradient. It actives in all the sections except in Home",
+        "WebOnLive":"https://frontend.esatid3-2021.com/binca",
+        "Git":"https://github.com/Binca-SA/projectAlpha",
+        "ux": [
             {
                 "Goals":"",
                 "Methodologies":[
@@ -63,17 +77,16 @@
                             }
                         ]
                     }
-                ],
-                "best-practices":"",
-                "Web on live":"https://frontend.esatid3-2021.com/binca",
-                "Git":"https://github.com/Binca-SA/projectAlpha"
+                ]
             }
         ]
     },
     {
         "id": "terralava",
         "name": "Terralava",
+        "video":"/images/works/terralava/terralaba-website.mp4",
         "category": "frontend",
+        "filter":["Frontend", "UX | UI"],
         "description": "Online shop",
         "tools": ["HTML", "SCSS", "JS", "FIGMA"],
         "img": "/images/cards/card-terralava.jpg",
@@ -89,7 +102,24 @@
         "bestPractices3":"In each section there are links that take you to other sections, in this way we do not leave any section without an exit",
         "bestPractices4":"Design made from atom design, that is, designing by components.",
         "bestPractices5":"Create a simple interactive quiz to make the user feel involved and important. Consisting of 7 questions, by answering a question, a smooth scroll took the user to the next one, which required minimum effort.  The results vary according to the option chosen for each question. In this way, we offer user support and innovate in the online jewellery retail market.",
-        "wireframes":"/images/works/about/wireframes-about-comp.jpg",
+        "wireframes":"/images/works/terralava/wireframes-compr.jpg",
+        "":"",
+        "frontGoal":"move away from static programming. And learn how to dynamise content, using tools such as JavaScript and PHP",
+        "bestPracticesF1":"mobile first programming",
+        "bestPracticesF2":"Responsive for: mobile, tablet and desktop",
+        "scss":"SCSS",
+        "scss1":"Grid",
+        "scss2":"Flex",
+        "scss3":"Use of variables, mixins, nested classes ",
+        "html":"PHP",
+        "html1":"Incorporation of elements such as the header and footer with a simple function",
+        "html2":"Manipulation of paths to achieve shorter URLs, which is beneficial for SEO",
+        "js":"JAVASCRIPT",
+        "js1":"Create a JSON to store product information and request the information. In this way fill each section dynamically via Axios and Fetch. In this way for the shop section, a grid was created as a structure with scss and the images and data such as price, name of each jewel or description were filled in with JSON.",
+        "js2":"Creation of an interactive test for users. By completing the test questions, results are displayed according to what has been selected. The answers were in an array, and the results were loaded via a path. In this way I learned a bit about paths.",
+        "js3":"Learn to use online libraries to incorporate a swiper. At the same time learning the negative part of using them",
+        "WebOnLive":"https://frontend.esatid3-2021.com/binca-beta",
+        "Git":"https://github.com/Binca-SA/terralava-beta",
         "projects": [
             {
                 "Goals":"",
@@ -104,7 +134,7 @@
                 "Tools":["MIRO, FIGMA"]
             },
             {
-                "Goals":"lear about the functionality of horizontal scroll, programm on mobile first size, and have a good organisation in the structuring of the folders.",
+                "Goals":"Move away from static programming. And learn how to dynamise content, using tools such as JavaScript and PHP",
                 "Methodologies":[
                     {
                         "mobile-first-programming":"mobile first programming",
@@ -130,10 +160,8 @@
                             }
                         ]
                     }
-                ],
-                "best-practices":"",
-                "Web on live":"https://frontend.esatid3-2021.com/binca",
-                "Git":"https://github.com/Binca-SA/projectAlpha"
+                ]
+                
             }
         ]
     },
@@ -141,6 +169,7 @@
         "id": "fran-silvestre-arquitectos",
         "name": "Fran Silvestre Arquitectos",
         "category": "frontend",
+        "filter": ["UX |UI"],
         "description": "Website design",
         "tools": ["FIGMA"],
         "img":"/images/cards/card-arquitectsjpg.jpg",
@@ -165,6 +194,7 @@
         "id": "ronda-martinez-abogados",
         "name": "Ronda & Martínez Abogados",
         "category": "graphic-design",
+        "filter":["Graphic Design"],
         "description": "Corporate identity design",
         "tools": ["ILLUSTRATOR", "PHOTOSHOP", "INDESIGN"],
         "img":"/images/cards/card-rondajpg.jpg",
@@ -181,6 +211,7 @@
         "id": "almond-harmony",
         "name": "Almond Harmony",
         "category": "graphic-design",
+        "filter":["Graphic Design"],
         "description": "Corporate identity design",
         "tools": ["ILLUSTRATOR", "PHOTOSHOP", "INDESIGN"],
         "img":"/images/cards/card-almond.jpg",
@@ -195,6 +226,7 @@
         "id": "signane-system",
         "name": "Signane Systme UMH",
         "category": "graphic-design",
+        "filter":["Graphic Design"],
         "description": "Corporate identity design",
         "tools": ["ILLUSTRATOR", "PHOTOSHOP", "INDESIGN"],
         "img":"/images/cards/card-signane.jpg",
@@ -208,6 +240,7 @@
         "id": "health-centre",
         "name": "Health Centre Almassera de Tonda",
         "category": "graphic-design",
+        "filter":["Graphic Design"],
         "description": "Design",
         "tools": ["ILLUSTRATOR", "PHOTOSHOP", "PROCREATE"],
         "img":"/images/cards/card-vila.jpg",

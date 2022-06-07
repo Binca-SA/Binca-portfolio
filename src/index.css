@@ -311,11 +311,11 @@ li{
 }
 .link-properties{
   text-decoration: none;
-  color: var(--txt-cta);
+  color: var(--bg-focus-work);
 }
 .link-properties:visited{
   text-decoration: none;
-  color: var(--txt-cta);
+  color:var(--bg-focus-work);
   outline: none;
 }
 

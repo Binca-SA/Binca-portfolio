@@ -9,7 +9,7 @@
     }
         .container-cards__container-btns__btns{
             background: none;
-            border: 1px solid black ;
+            border: 1px solid var(--txt-cta) ;
             
             border-radius: 64px;
             margin-bottom: 45px;
@@ -102,7 +102,7 @@
         /* content: "VIEW PROJECT"; */
         background:  radial-gradient(92.37% 92.37% at 37.96% 11.51%, var(--home-bg-change-green) 0%, var(--home-bg-color) 64.11%, var(--home-bg-change-yellow) 100%) ;
         background-size: 200% 200%;
-        animation: gradient 15s ease-in-out infinite;
+        animation: gradient 10s ease-in-out infinite;
     }
     }/*BACKGROUND ANIMATION*/
     @-webkit-keyframes gradient {

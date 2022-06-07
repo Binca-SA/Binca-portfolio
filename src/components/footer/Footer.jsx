@@ -8,7 +8,7 @@ export default function Footer(){
         
         <p className='footer__p'><span>*</span>This website was made with React and CSS | designed with Figma ;)</p>
         
-        <p className='footer__p'><span>*</span>portfolio Binca Shinaasy | 2022</p>
+        <p className='footer__p'><span>*</span>portfolio Binca Shinaasi | 2022</p>
         
     </footer>
 }

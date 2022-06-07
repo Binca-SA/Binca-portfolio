@@ -8,7 +8,7 @@ export default function Contact() {
                 <div className='flex-desk'>
                     <div className='container-title'>
                         <h5 className='container-title__title'>If you want to<br></br> ask,<br></br> create or<br></br> collaborate <span>...</span></h5>
-                        <a className='container-title__cta txt-bold' href='mailto: binca.codesign@gmail.com'>SEND ME AN E-MAIL</a>
+                        <a className='container-title__cta txt-bold' href='mailto:binca.codesign@gmail.com'>SEND ME AN E-MAIL</a>
                     </div>
                     <div className='flex-desk__row'>
                         <div className='container-cv containers-p-contact'>

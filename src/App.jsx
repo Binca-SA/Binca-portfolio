@@ -28,7 +28,7 @@ function App() {
 				
         <Route path='/frontend/:id' element={<Frontend />}/>
         <Route path='/graphic-design/:id' element={<ProjectGraphic />}/>
-
+        
         <Route path="/about" element={<About />} />
 				
         <Route path="/archive" element={<Archive />} />

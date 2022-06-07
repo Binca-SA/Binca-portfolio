@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 
 
 function GetWorks(){
-
     const [cards, setCards] = useState([]);
+    const [cardsToView, setCardsToView] = useState([]);
 
     //getting json//
     useEffect(() => {
@@ -15,19 +15,26 @@ function GetWorks(){
         .then(response => setCards(response.data));
     }, [])
 
+    useEffect(() => {
+        setCardsToView(cards);
+    }, [cards])
     //filtered cards//
     
+    const setData = (categoryName) => {
+        const list = cards.filter(project => project.filter.includes(categoryName)); 
+        setCardsToView(list);
+    }
     //printing card works//
     return (
         <>
             <section className='container-cards mobile-margin margin-bottom'>
                 <h2 className='main-titles'>selected<br></br>works</h2>
                 <div className='container-cards__container-btns'>
-                    <button  className='container-cards__container-btns__btns'>UX</button>
-                    <button className='container-cards__container-btns__btns'>Frontend</button>
-                    <button  className='container-cards__container-btns__btns'>Graphic Design</button>
+                    <button onClick={()=> setData('UX | UI')} className='container-cards__container-btns__btns'>UX</button>
+                    <button onClick={()=> setData('Frontend')} className='container-cards__container-btns__btns'>Frontend</button>
+                    <button onClick={()=> setData('Graphic Design')} className='container-cards__container-btns__btns'>Graphic Design</button>
                 </div>
-                {cards.map(card=> (<>
+                {cardsToView.map(card=> (<>
                     <div className='container-cards__card'>
                         <Link className='container-cards__card__link link-properties' to={`/${card.category}/${card.id}`}>
                         
