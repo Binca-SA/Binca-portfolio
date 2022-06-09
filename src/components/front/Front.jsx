@@ -25,22 +25,16 @@ function FrontWorks(){
         <div className='container-front-section__fixed__front__goals'>
             <div className="cont-subtitles">
                 <h3 className="subtitles-work">Goals </h3>
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z" fill="#E8464E"/>
-                </svg>
             </div>
-            <ul className='  container-front-section__fixed__front__goals__txt'>
+            <ul className='container-front-section__fixed__front__goals__txt'>
                 <li className="" key={front.frontGoal}>{ front.frontGoal }</li>
             </ul>
         </div> 
         <div className='container-front-section__fixed__front__bestPracices'>
             <div className="cont-subtitles">
                 <h3 className="subtitles-work">Best practices </h3>
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z" fill="#E8464E"/>
-                </svg>
             </div>
-            <ul className='  container-front-section__fixed__front__goals__txt'>
+            <ul className='container-front-section__fixed__front__goals__txt'>
                 <li className="" key={front.bestPracticesF1}>{ front.bestPracticesF1 }</li>
                 <li className="" key={front.bestPracticesF2}>{ front.bestPracticesF2 }</li>
                 <ul key={front.scss}>{ front.scss}
@@ -63,9 +57,6 @@ function FrontWorks(){
         <div className='container-front-section__fixed__front__url'>
             <div className="cont-subtitles">
                 <h3 className="subtitles-work">Web on live </h3>
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z" fill="#E8464E"/>
-                </svg>
             </div>
             <ul className='  container-front-section__fixed__front__goals__txt'>
                 <li className="" key={front.WebOnLive}><a href={ front.WebOnLive }>LINK</a></li>
@@ -74,9 +65,6 @@ function FrontWorks(){
         <div className='container-front-section__fixed__front__git'>
             <div className="cont-subtitles">
                 <h3 className="subtitles-work">Check the code</h3>
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z" fill="#E8464E"/>
-                </svg>
             </div>
             <ul className='  container-front-section__fixed__front__goals__txt'>
                 <li className="" key={front.Git}><a href={ front.Git }>GITHUB</a></li>

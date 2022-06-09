@@ -36,7 +36,7 @@
             /* position: relative; */
             align-self: flex-end;
             margin-top: -20px;
-            font-size: var(--subtitlesMob-size);
+            font-size: var(--titleMob-card-size);
             background: none;
             border: none;
             color: var(--txt-cta);

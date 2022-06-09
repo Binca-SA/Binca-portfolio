@@ -1,15 +1,37 @@
-.container-front-section{
-    background-color: white;
+.container-info{
+    display: flex;
+    column-gap: 5rem;
+    justify-content: space-between;
 }
-
+    .container-info__intro__p{
+        max-width: 35vw;
+    }
+video{
+    border-radius: 27px;
+    margin-top: 20rem;
+    width: 50%;
+}
+@media (max-width:950px){
+    .container-info{
+        flex-direction: column;
+    }
+    .container-info__intro__p{
+        max-width: 100%;
+    }
+    video{
+        margin-top: 5rem;
+        width: 100%;
+        border-radius: 14px;
+    }
+}
 /*BUTTONS*/
-.container-front-section__fixed__cont-btns{
+.container-front__btns{
     display: flex;
     column-gap: 3rem;
     margin-top: 45px;
     margin-bottom: 45px;
 }
-    .container-front-section__fixed__cont-btns__btns{
+    .container-front__btns__btn{
         background: none;
         border: 1px solid black;
         border-radius: 64px;
@@ -17,20 +39,44 @@
         cursor: pointer;
         width: 120px;
     }
-    .container-front-section__fixed__cont-btns__btns:hover{
+    .container-front__btns__btn:hover{
         background-color: var(--txt-cta);
         color: white;
         transition: all .3s ease-in-out;
         border: 2px solid var(--txt-cta);
     }
 
-    /*subtitles*/
-    .cont-subtitles{
+    .container-front__btns__btn:active, .container-front__btns__btn:focus {
+        background-color: var(--txt-cta);
+        color: white;
+        border: 2px solid var(--txt-cta);
+    }
+    @media (min-width:950px){
+        .container-front__btns__btn{
+            font-size: 3rem;
+            width: 10%;
+        }
+    }
+    /*container-imgaes*/
+    .container-front__imgs{
         display: flex;
-        align-items: center;
-        column-gap: .5rem;
+        flex-direction: column;
+        row-gap: 10rem;
     }
-    .subtitles-work{
-        font-size: var(--subtitlesMob-size);
-        color: var(--txt-cta);
+    .img-front{
+        width: 40vw;
     }
+    /*mobile*/
+    @media (max-width:950px){
+        .flex-row{
+            flex-direction: column;
+            row-gap: 5rem;
+        }
+        .container-front__imgs{
+            row-gap: 5rem;
+        }
+        .img-front{
+            width: 100%;
+        }
+    }
+    

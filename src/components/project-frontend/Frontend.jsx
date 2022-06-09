@@ -5,7 +5,7 @@ import axios from 'axios';
 import Front from "../front/Front";
 import Ux from "../ux/Ux";
 import { useParams } from "react-router-dom";
-
+import Contact from "../contact/Contact";
 function FrontWorks(){
 
     //activate buttons
@@ -26,25 +26,33 @@ function FrontWorks(){
 
     return (
     <>
-        <section className='container-info mobile-margin padding-top'>
-            <div className='container-info__intro'>
-                <h1 className="container-info__intro__title main-titles" key={front.name}>{ front.name }</h1>
-                <p className="container-info__intro__p atom-margin-link" key={front.introduction}>{front.introduction}</p>
-                <video src={front.video} type="video/mp4" controls autoplay muted>
-                    <source src={front.video} type="video/mp4"></source>
+        <section className='container-front bg-white mobile-margin padding-top margin-bottom'>
+            <div className="container-info">
+                <div className='container-info__intro'>
+                    <h1 className="container-info__intro__title main-titles" key={front.name}>{ front.name }</h1>
+                    <p className="container-info__intro__p atom-margin-link" key={front.introduction}>{front.introduction}</p>
+                </div>
+                <video src={front.video} type="video/mp4" controls muted>
+                        <source src={front.video} type="video/mp4"></source>
                 </video>
             </div>
-            <div>
-                <button onClick={() => setActive("ux")}>UX | UI</button>
-                <button onClick={() => setActive("front")}>Frontend</button>
+            <div className="container-front__btns">
+                <button className="container-front__btns__btn" onClick={() => setActive("ux")}>UX | UI</button>
+                <button className="container-front__btns__btn" onClick={() => setActive("front")}>Frontend</button>
             </div>
-            {active === "ux" && <Ux></Ux>}
-            {active === "front" && <Front></Front>}
-            
-            <div className='container-info__imgs'>
-                {/* <img className='' src={front.img}></img> */}
+            <div className="flex-row">
+                {active === "ux" && <Ux></Ux>}
+                {active === "front" && <Front></Front>}
+                
+                <div className='container-front__imgs'>
+                    <img className="img-front border-radius" key={front.image1} src={front.image1}></img>
+                    <img className="img-front border-radius" key={front.image2} src={front.image2}></img>
+                    <img className="img-front border-radius" key={front.image3} src={front.image3}></img>
+                    <img className="img-front border-radius" key={front.image4} src={front.image4}></img>
+                </div>
             </div>
         </section>
+        <Contact></Contact>
     </>
     )
 }

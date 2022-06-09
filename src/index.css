@@ -122,7 +122,7 @@
   --titles-section-lineHeight: 85%;
 
 /*subtitles next to titles section*/
-  --subtitles-size: 3.3rem;
+  --subtitles-size: 5rem;
   --subtitles-font: 'ClashGrotesk-Regular';
   --subtitles-lineHeight: 85%;
 
@@ -168,7 +168,7 @@
   --titlesMob-section-lineHeight: 89%;
 
 /*subtitles next to titles section*/
-  --subtitlesMob-size: 2.3rem;
+  --subtitlesMob-size: 3rem;
   --subtitlesMob-font: 'ClashGrotesk-Regular';
   --subtitlesMob-lineHeight: 85%;
 
@@ -369,13 +369,20 @@ li{
   flex-direction: column;
   row-gap:15px ;
 }
-
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20rem;
+}
 /*background colour*/
 .bg-white{
   background-color: white;
 }
 
-
+/*border-radius*/
+.border-radius{
+  border-radius: 14px;
+}
 
 /*DESKTOP P SIZES*/
 
@@ -384,7 +391,7 @@ li{
     font-size: calc(var(--desplegableMob-titles-size)*1.5);
   }
   .style-link{
-    font-size: var(--subtitles-size);
+    font-size: var(--homeMob-intro-size);
   }
   p{
     font-size: calc(1.7rem*1.7);
