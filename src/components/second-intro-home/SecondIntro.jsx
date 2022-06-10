@@ -1,7 +1,7 @@
 import React from 'react';
-import './introHome.css';
-import { ScrollContainer } from 'react-scroll-motion';
-import { Animator, batch, Fade, ScrollPage, Sticky, Zoom, Move, MoveOut, MoveIn } from 'react-scroll-motion';
+
+// import { ScrollContainer } from 'react-scroll-motion';
+// import { Animator, batch, Fade, ScrollPage, Sticky, Zoom, Move, MoveOut, MoveIn } from 'react-scroll-motion';
 
 
 
