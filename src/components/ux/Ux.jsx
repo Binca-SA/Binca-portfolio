@@ -27,28 +27,21 @@ function UxWorks(){
                 <h3 className="subtitles-work">Goals </h3>
             </div>
             <ul className='container-front-section__fixed__ux'>
-                <li className="" key={ux.goal1}>{ ux.goal1 }</li>
-                <li className="" key={ux.goal2}>{ ux.goal2 }</li>
+                <li className="list-section" key={ux.goal1}>{ ux.goal1 }</li>
+                <li className="list-section" key={ux.goal2}>{ ux.goal2 }</li>
             </ul>
         </div> 
-        <div className='container-front-section__fixed__ux__methodologies'>
-            <div aria="button" className="cont-subtitles">
-                <h3 className="subtitles-work">Methodologies </h3>
-            </div>
-            <ul className='container-front-section__fixed__ux'>
-                {/* {ux.methodologies.map(methodologie => <img key={ux.methodologies} src={methodologie}></img>)} */}
-            </ul>
-        </div>
+        
         <div className='container-front-section__fixed__ux__bestPractices'>
             <div aria="button" className="cont-subtitles">
                 <h3 className="subtitles-work">Best Practices </h3>
             </div>
             <ul className='container-front-section__fixed__ux'>
-                <li className="" key={ux.bestPractices1}>{ ux.bestPractices1 }</li>
-                <li className="" key={ux.bestPractices2}>{ ux.bestPractices2 }</li>
-                <li className="" key={ux.bestPractices3}>{ ux.bestPractices3 }</li>
-                <li className="" key={ux.bestPractices4}>{ ux.bestPractices4 }</li>
-                <li className="" key={ux.bestPractices5}>{ ux.bestPractices5 }</li>
+                <li className="list-section" key={ux.bestPractices1}>{ ux.bestPractices1 }</li>
+                <li className="list-section" key={ux.bestPractices2}>{ ux.bestPractices2 }</li>
+                <li className="list-section" key={ux.bestPractices3}>{ ux.bestPractices3 }</li>
+                <li className="list-section" key={ux.bestPractices4}>{ ux.bestPractices4 }</li>
+                <li className="list-section" key={ux.bestPractices5}>{ ux.bestPractices5 }</li>
             </ul>
         </div>
         <div className='container-front-section__fixed__ux__wireframes'>

@@ -13,7 +13,7 @@ export default function Contact() {
                     <div className='flex-desk__row'>
                         <div className='container-cv containers-p-contact'>
                             <p className='container-cv__p text-size margin-top'>THANKS FOR YOUR VISIT!</p>
-                            <button className=' container-cv__link style-link'>CHECK MY CV</button>
+                            <button className=' container-cv__link style-link'><a className='style-link' href="https://binca-sa.github.io/">CHECK MY CV</a></button>
                         </div>
                         <div className='container-social containers-p-contact atom-margin-bottom'>
                             <p className='container-social__p text-size margin-top-double'>FOLLOW MY ADVENTURES</p>

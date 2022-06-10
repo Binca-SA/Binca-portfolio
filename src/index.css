@@ -221,17 +221,31 @@ h1, h2, h3, h4, h5{
   margin: 0;
 }
 li{
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 @media (min-width:850px) {
   li{
-    font-size: 3rem;
+    font-size: 2.7rem;
+  }
+}
+ul{
+  font-size: 2rem;
+  padding: 1rem;
+}
+@media (min-width:850px) {
+  ul{
+    font-size: 3.3rem;
+    padding: 1;
   }
 }
 /* ul li::before {
   color: var(--bg-focus-work);
 } */
 /*HELPERS -> Always at the end of the code*/
+.margin-top-bottom{
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
 .vh{
   height: 100vh;
   margin-right: 45px;
@@ -373,6 +387,7 @@ li{
   display: flex;
   flex-direction: row;
   column-gap: 20rem;
+  justify-content: space-between;
 }
 /*background colour*/
 .bg-white{

@@ -56,7 +56,11 @@ video{
             font-size: 3rem;
             width: 10%;
         }
+        .container-front-section__fixed__front{
+            max-width: 30vw;
+        }
     }
+
     /*container-imgaes*/
     .container-front__imgs{
         display: flex;
@@ -66,6 +70,12 @@ video{
     .img-front{
         width: 40vw;
     }
+    /*LIST SECTION*/
+    .list-section{
+        padding: 1rem;
+        list-style-type:none;
+    }
+
     /*mobile*/
     @media (max-width:950px){
         .flex-row{
@@ -79,4 +89,3 @@ video{
             width: 100%;
         }
     }
-    

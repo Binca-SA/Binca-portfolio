@@ -12,21 +12,21 @@ export default function About() {
             <div className='flex-desk-resp marg-bottom'>
                 <img className='container-about__img' src='/images/about/profile.jpg' alt='profile image of Binca'></img>
                 <div className='container-about__facts-container'>
-                    <div className='container-about__facts-container__container-text'><span className='style-numbers'>1</span><p>I started my career in the world of art and there i discovered 
+                    <div className='container-about__facts-container__container-text'><span className='style-numbers'>1</span><p className='margin-top-bottom'>I started my career in the world of art and there i discovered 
                         graphic design, after my career I specialized 
                         in digital design and web programming. <br></br><button className='style-link atom-margin-link'>> VIEW PROJECTS</button></p>
                     </div>
                     
-                    <div className='container-about__facts-container__container-text'><span className='style-numbers'>2</span><p>I am a naturally inquisitive person, so i make a lot of questions no matter what the point is.</p>
+                    <div className='container-about__facts-container__container-text'><span className='style-numbers'>2</span><p className='margin-top-bottom'>I am a naturally inquisitive person, so i make a lot of questions no matter what the point is.</p>
                     </div>
 
-                    <div className='container-about__facts-container__container-text'><span className='style-numbers'>3</span><p>In my free time I do sport. I like it because sport is synonymous of technique, perseverance and effort, but that doesn’t  mean that I don’t accept a glass of wine.</p>
+                    <div className='container-about__facts-container__container-text'><span className='style-numbers'>3</span><p className='margin-top-bottom'>In my free time I do sport. I like it because sport is synonymous of technique, perseverance and effort, but that doesn’t  mean that I don’t accept a glass of wine.</p>
                     </div>
 
-                    <div className='container-about__facts-container__container-text'><span className='style-numbers'>4</span><p>Adjectives that define me: perfectionist, daring, creative and organized.</p>
+                    <div className='container-about__facts-container__container-text'><span className='style-numbers'>4</span><p className='margin-top-bottom'>Adjectives that define me: perfectionist, daring, creative and organized.</p>
                     </div>
 
-                    <div className='container-about__facts-container__container-text'><span className='style-numbers'>5</span><p>Macarrons lover</p>
+                    <div className='container-about__facts-container__container-text'><span className='style-numbers'>5</span><p className='margin-top-bottom'>Macarrons lover</p>
                     </div>
                 </div>
             </div>
@@ -34,7 +34,11 @@ export default function About() {
         <div className='flex  desk-padding'>
             <h2 className='main-titles rotation margin-top margin-bottom'>Experience</h2>
             <div className='flex-center'>
-                <p className='max-width-p'>I started in the digital world with my studies in Graphic Design. I love layout and design web pages. I like using Figma and SCSS. Another of my hobbies is the user experience in the digital world, creating a friendly and understandable environment for all audiences. My goal is to improve my skills and expand my knowledge, especially in web accessibility and learn more about CSS architecture to make scalable and maintainable projects.</p>
+                <p className='max-width-p'>I started in the digital world with my studies in Graphic Design. 
+                I love layout and design web pages. I like using Figma and SCSS. Another of my hobbies is the user experience 
+                in the digital world, creating a friendly and understandable environment for all audiences. My goal is to improve my skills 
+                and expand my knowledge, especially in web accessibility and learn more about CSS architecture to make scalable and maintainable 
+                projects.</p>
                 <div className='container-about__container-dates margin-top'>
                     <div className='container-about__container-dates__circle'></div>
                     <p className=''><span>Jun. 2021 - Sept. 2021</span><br></br>
