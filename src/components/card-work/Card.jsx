@@ -27,7 +27,7 @@ function GetWorks(){
     //printing card works//
     return (
         <>
-            <section className='container-cards mobile-margin margin-bottom'>
+            <section id='works' className='container-cards mobile-margin margin-bottom'>
                 <h2 className='main-titles'>selected<br></br>works</h2>
                 <div className='container-cards__container-btns'>
                     <button onClick={()=> setData('UX | UI')} className='container-cards__container-btns__btns'>UX</button>
@@ -35,14 +35,14 @@ function GetWorks(){
                     <button onClick={()=> setData('Graphic Design')} className='container-cards__container-btns__btns'>Graphic Design</button>
                 </div>
                 {cardsToView.map(card=> (<>
-                    <div className='container-cards__card'>
+                    <div className='container-cards__card' key={card.id}>
                         <Link className='container-cards__card__link link-properties' to={`/${card.category}/${card.id}`}>
                         
                                 <div className='cont-text'>
-                                    <p className='container-cards__card__title' key={card.name}>{card.name}</p>
-                                    <p className='container-cards__card__desc' key={card.description}>{card.description}</p>
+                                    <p className='container-cards__card__title'>{card.name}</p>
+                                    <p className='container-cards__card__desc'>{card.description}</p>
                                     <ul className='container-cards__card__tools'>
-                                        {card.tools.map(tool => <li key={card.tools}>{tool}</li>)}
+                                        {card.tools.map(tool => <li key={tool}>{tool}</li>)}
                                     </ul>
                                 </div>    
 

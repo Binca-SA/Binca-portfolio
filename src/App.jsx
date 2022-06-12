@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
@@ -12,11 +13,17 @@ import Footer from './components/footer/Footer';
 // import Contact from './components/contact/Contact';
 import Frontend from './components/project-frontend/Frontend';
 import ProjectGraphic from './components/project-graphic/ProjectGraphic';
-
+import { useLocation } from "react-router-dom";
 
 
 
 function App() {
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   return <>
 	<Header></Header> 

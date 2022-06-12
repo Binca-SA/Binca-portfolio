@@ -30,5 +30,6 @@ export default function IntroPhrase() {
                         </section> 
                     </Animator>
                 </ScrollPage>
+                
             </ScrollContainer>
 }

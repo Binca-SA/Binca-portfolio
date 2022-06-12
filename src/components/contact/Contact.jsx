@@ -4,7 +4,7 @@ import './contact.css';
 
 
 export default function Contact() { 
-    return <section className='section-contact'>
+    return <section id='contact' className='section-contact'>
                 <div className='flex-desk'>
                     <div className='container-title'>
                         <h5 className='container-title__title'>If you want to<br></br> ask,<br></br> create or<br></br> collaborate <span>...</span></h5>
@@ -26,5 +26,5 @@ export default function Contact() {
                         </div>
                     </div>
                 </div>
-</section>
+            </section>
 }

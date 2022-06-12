@@ -37,8 +37,8 @@ function FrontWorks(){
                 </video>
             </div>
             <div className="container-front__btns">
-                <button className="container-front__btns__btn" onClick={() => setActive("ux")}>UX | UI</button>
-                <button className="container-front__btns__btn" onClick={() => setActive("front")}>Frontend</button>
+                <button className={"container-front__btns__btn " + (active === 'ux' ? 'active' : '')} onClick={() => setActive("ux")}>UX | UI</button>
+                <button className={"container-front__btns__btn " + (active === 'front' ? 'active' : '')} onClick={() => setActive("front")}>Frontend</button>
             </div>
             <div className="flex-row">
                 {active === "ux" && <Ux></Ux>}
