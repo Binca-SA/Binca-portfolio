@@ -318,6 +318,10 @@ ul{
   padding: 0;
   cursor: pointer;
 }
+.link-anchor{
+  text-decoration: none;
+  color: black;
+}
 .link{
   text-decoration: none;
   color: var(--txt-cta);

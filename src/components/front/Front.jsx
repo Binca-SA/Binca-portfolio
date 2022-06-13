@@ -59,7 +59,7 @@ function FrontWorks(){
                 <h3 className="subtitles-work">Web on live </h3>
             </div>
             <ul className='  container-front-section__fixed__front__goals__txt'>
-                <li className="list-section style-link" key={front.WebOnLive}><a href={ front.WebOnLive }>LINK</a></li>
+                <li className="list-section style-link" key={front.WebOnLive}><a className="style-link" href={ front.WebOnLive }>LINK</a></li>
             </ul>
         </div>
         <div className='container-front-section__fixed__front__git'>
@@ -67,7 +67,7 @@ function FrontWorks(){
                 <h3 className="subtitles-work">Check the code</h3>
             </div>
             <ul className='  container-front-section__fixed__front__goals__txt'>
-                <li className="list-section style-link" key={front.Git}><a href={ front.Git }>GITHUB</a></li>
+                <li className="list-section " key={front.Git}><a className="style-link"  href={ front.Git }>GITHUB</a></li>
             </ul>
         </div>
     </div>

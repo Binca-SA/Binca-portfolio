@@ -34,6 +34,7 @@ function App() {
         <Route path="/" element={<Home />} />
 				
         <Route path='/frontend/:id' element={<Frontend />}/>
+        
         <Route path='/graphic-design/:id' element={<ProjectGraphic />}/>
         
         <Route path="/about" element={<About />} />
