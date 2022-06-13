@@ -14,7 +14,7 @@ export default function About() {
                 <div className='container-about__facts-container'>
                     <div className='container-about__facts-container__container-text'><span className='style-numbers'>1</span><p className='margin-top-bottom'>I started my career in the world of art and there i discovered 
                         graphic design, after my career I specialized 
-                        in digital design and web programming. <br></br><button className='style-link atom-margin-link'>> VIEW PROJECTS</button></p>
+                        in digital design and web programming. <br></br><button className='style-link atom-margin-link'><a href='#works'></a>> VIEW PROJECTS</button></p>
                     </div>
                     
                     <div className='container-about__facts-container__container-text'><span className='style-numbers'>2</span><p className='margin-top-bottom'>I am a naturally inquisitive person, so i make a lot of questions no matter what the point is.</p>

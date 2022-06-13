@@ -1,5 +1,5 @@
 import React from 'react';
-import { Animator, batch, Fade, ScrollPage, Sticky, Zoom } from 'react-scroll-motion';
+import { Animator, batch, Fade, FadeIn, Move, ScrollPage, Sticky, Zoom, ZoomOut } from 'react-scroll-motion';
 import './introPhrase.css';
 import { ScrollContainer } from 'react-scroll-motion';
 

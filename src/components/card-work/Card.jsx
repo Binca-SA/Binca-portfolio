@@ -35,7 +35,7 @@ function GetWorks(){
                     <button onClick={()=> setData('Graphic Design')} className='container-cards__container-btns__btns'>Graphic Design</button>
                 </div>
                 {cardsToView.map(card=> (<>
-                    <div className='container-cards__card' key={card.id}>
+                    <div  className='container-cards__card' key={card.id}>
                         <Link className='container-cards__card__link link-properties' to={`/${card.category}/${card.id}`}>
                         
                                 <div className='cont-text'>
