@@ -7,8 +7,8 @@
         max-width: 35vw;
     }
 video{
-    border-radius: 27px;
-    margin-top: 20rem;
+    border-radius: 14px;
+    /* margin-top: 20rem; */
     width: 50%;
 }
 @media (max-width:950px){
@@ -35,7 +35,7 @@ video{
         background: none;
         border: 1px solid black;
         border-radius: 64px;
-        padding: 8px 12px 8px 12px;
+        padding: 8px 10px 8px 10px;
         cursor: pointer;
         width: 120px;
     }
@@ -52,10 +52,6 @@ video{
         border: 2px solid var(--txt-cta);
     }
     @media (min-width:950px){
-        .container-front__btns__btn{
-            font-size: 3rem;
-            width: 10%;
-        }
         .container-front-section__fixed__front{
             max-width: 30vw;
         }
@@ -72,7 +68,7 @@ video{
     }
     /*LIST SECTION*/
     .list-section{
-        padding: 1rem;
+        padding: .5rem;
         list-style-type:none;
     }
 

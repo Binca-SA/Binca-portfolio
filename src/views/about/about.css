@@ -39,14 +39,14 @@
         margin-bottom: 45px;
     }
         .subtitle-style{
-            font-size:var(--introMob-work-size) ;
+            font-size:2rem;
             font-family:'ClashGrotesk-Light';
             align-self: flex-end;
             line-height: 1;
         }
         .container-about__facts-container{
             display: flex;
-            row-gap: 6rem;
+            row-gap: 3rem;
             flex-direction: column;
         }
             .container-about__facts-container__container-text{
@@ -66,8 +66,8 @@
     }
 
         .container-about__container-dates__circle{
-            width: 17px;
-            height: 17px;
+            width: 12px;
+            height: 12px;
             background-color: var(--txt-cta);
             border-radius: 50%;
         }
@@ -98,7 +98,7 @@
             width: 9px;
             height: 9px;
             border-radius: 50%;
-            border: 3px solid var(--txt-cta);
+            border: 2px solid var(--txt-cta);
         }
 
 
@@ -117,7 +117,7 @@
     .rotation{
         transform: rotate(-90deg);
         position: absolute;
-        transform-origin: 35% 280% ;
+        transform-origin:20% 280% ;
     }
     .flex{
         margin-top: 10rem;
@@ -162,8 +162,9 @@
     }
     /*styling intro photo and facts*/
     .subtitle-style{
-        font-size: var(--desplegable-titles-size);
-        align-self: flex-start;
+        
+        align-self: center;
+        margin-left:-90px ;
         /* margin-left: 530px;
         margin-top: -35px; */
     }
@@ -173,15 +174,15 @@
         column-gap: 13rem;
     }
     .container-about__img{
-        width: 700px;
-        height: 950px;
+        width: 455px;
+        height: 617px;
     }
     .container-about__facts-container{
         max-width: 1000px;
         margin-top: 45px;
     }
     .style-numbers{
-        font-size:10rem ;
+        font-size:5rem ;
     }
     /*experience, tools. skills CONTAINERS*/
     .container-about__tools{

@@ -97,48 +97,48 @@
 /* VARIABLES TYPE -------desktop-------*/
 
 /*home title*/
-  --main-titles:13rem;
-  --home-h1-size: 15.7rem;
+  --main-titles:6.5rem;
+  --home-h1-size: 7.85rem;
   --home-h1-font: 'ClashGrotesk-Medium';
 /*subtitles*/
-  --home-subtitles-size: 5rem;
+  --home-subtitles-size: 2.5rem;
   --home-subtitle-font: 'ClashGrotesk-Regular';
 
 /*topbar*/
-  --text-topbar-size: 4rem;
+  --text-topbar-size: 2.5rem;
   --home-topbar-font: 'Space Grotesk';
 
 /*elements menu*/
-  --menu-texts-size: 8rem;
+  --menu-texts-size: 4rem;
   --menu-text-font: 'ClashGrotesk-Medium';
   --menu-text-hover: 'ClashGrotesk-Light';
 
 /*home intro phrase*/
-  --home-intro-size: 8rem;
+  --home-intro-size: 4rem;
 
 /*titles section*/
-  --titles-section-size: 12.5rem;
+  --titles-section-size: 6.25rem;
   --titles-section-font: 'ClashGrotesk-Medium';
   --titles-section-lineHeight: 85%;
 
 /*subtitles next to titles section*/
-  --subtitles-size: 5rem;
+  --subtitles-size: 2.5rem;
   --subtitles-font: 'ClashGrotesk-Regular';
   --subtitles-lineHeight: 85%;
 
 /*cards works*/
-  --title-card-size: 6rem;
+  --title-card-size: 3rem;
   --title-card-font: 'ClashGrotesk-Medium';
   --title-card-lineHeight: 81%;
 
-  --subtitle-card-size: 2.2rem;
+  --subtitle-card-size: 1.1rem;
   --subtitle-card-font: 'ClashGrotesk-Light';
 
 /*work section texts*/
-  --intro-work-size: 2.6rem;
+  --intro-work-size: 1.3rem;
   --intro-work-font:'ClashGrotesk-Regular';
 
-  --desplegable-titles-size: 4rem;
+  --desplegable-titles-size: 3rem;
   --desplegable-titles-font: 'ClashGrotesk-Medium';
 
 
@@ -160,7 +160,7 @@
   --menuMob-text-hover: 'ClashGrotesk-Light';
 
 /*home intro phrase*/
-  --homeMob-intro-size:3.5rem;
+  --homeMob-intro-size: 3.5rem;
 
 /*titles section*/
   --titlesMob-section-size: 6rem;
@@ -177,7 +177,7 @@
   --titleMob-card-font: 'ClashGrotesk-Medium';
   --titleMob-card-lineHeight: 81%;
 
-  --subtitleMob-card-size: 1.6rem;
+  --subtitleMob-card-size: 2rem;
   --subtitleMob-card-font: 'ClashGrotesk-Light';
 
 /*work section texts*/
@@ -213,7 +213,7 @@ body {
   overflow-x: hidden;
 }
 p{
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   margin: 0;
 }
 
@@ -223,18 +223,14 @@ h1, h2, h3, h4, h5{
 li{
   font-size: 1.8rem;
 }
-@media (min-width:850px) {
-  li{
-    font-size: 2.7rem;
-  }
-}
+
 ul{
   font-size: 2rem;
   padding: 1rem;
 }
 @media (min-width:850px) {
   ul{
-    font-size: 3.3rem;
+    font-size: 1.65rem;
     padding: 1;
   }
 }
@@ -243,7 +239,7 @@ ul{
 } */
 /*HELPERS -> Always at the end of the code*/
 .margin-top-bottom{
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 .vh{
@@ -295,8 +291,8 @@ ul{
 }
 @media (min-width:850px) {
   .mobile-margin{
-    padding-left: 240px;
-    padding-right: 240px;
+    padding-left: 140px;
+    padding-right: 140px;
   }
 }
 .mobile-padding{
@@ -378,7 +374,7 @@ ul{
 }
 @media (min-width:900px){
   .main-titles{
-    font-size:20rem;
+    font-size:10rem;
   }
 }
 /*row gap for elements isnide a container*/
@@ -390,7 +386,7 @@ ul{
 .flex-row{
   display: flex;
   flex-direction: row;
-  column-gap: 20rem;
+  column-gap: 10rem;
   justify-content: space-between;
 }
 /*background colour*/
@@ -407,12 +403,12 @@ ul{
 
 @media (min-width:700px) {
   .text-size{
-    font-size: calc(var(--desplegableMob-titles-size)*1.5);
+    font-size: calc(var(--desplegableMob-titles-size)*0.75);
   }
   .style-link{
-    font-size: var(--homeMob-intro-size);
+    font-size: 2rem;
   }
-  p{
-    font-size: calc(1.7rem*1.7);
-  }
+  /* p{
+    font-size: calc(0.85rem*0.85);
+  } */
 }

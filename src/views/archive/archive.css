@@ -45,13 +45,25 @@
         } 
         .subtitle-style__arch{
             align-self: flex-start;
-            font-size: var(--desplegable-titles-size);
-            margin-left: 300px;
-            margin-top: -60px;
+            font-size: 2rem;
+            margin-left: 170px;
+            margin-top: -30px;
         }
 }
 
 .img-modal{
-    width: 80rem;
-    height: 80rem;
+    width: 35rem;
+    height: 35rem;
+}
+.title-modal{
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'ClashGrotesk-Medium';
+    font-size: 3rem;
+    width: 300px;
+}
+.tools-modal{
+    margin-top: 1rem;
+    font-size: 13px;
 }

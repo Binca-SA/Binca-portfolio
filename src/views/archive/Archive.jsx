@@ -11,7 +11,7 @@ function GetPhotos(){
     const [active, setActive] = useState(true);
 
     const toggle = (title) => {
-      setActive(title ? title : false);
+        setActive(title ? title : false);
     }
 
     //calling JSON//
@@ -38,9 +38,9 @@ function GetPhotos(){
                         </button>
                         <Modal className='container-grid__cont-photo__modal' active={active === photo.title} toggle={toggle}>
                             <img className='img-modal' key={photo.img} src={photo.img}></img>
-                            <p key={photo.name}>{ photo.name }</p>
+                            <p className='title-modal' key={photo.title}>{ photo.title }</p>
                             <p className='fit-content' key={photo.description}>{ photo.description }</p>
-                            <p key={photo.tools}><i>{ photo.tools }</i></p>
+                            <p className='tools-modal' key={photo.tools}><i>{ photo.tools }</i></p>
                         </Modal>
                     </div>
                 </>))}
