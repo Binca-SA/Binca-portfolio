@@ -31,47 +31,49 @@ function GraphicWorks(){
                     <p className="container-info__intro__p atom-margin-link" key={graphic.introduction}>{graphic.introduction}</p>
                 </div>
             </div>
-            
-            <div className="container-graphic__info">
-                <div className="cont-subtitles">
-                    <h3 className="subtitles-work">Needs Solved</h3>
-                    <p key={graphic.needs}>{ graphic.needs }</p>
-                    <ul>
-                        <li>{ graphic.needs1 }</li>
-                        <li>{ graphic.needs2 }</li>
-                        <li>{ graphic.needs3 }</li>
-                        <li>{ graphic.needs4 }</li>
-                        <li>{ graphic.needs5 }</li>
-                    </ul>
-                </div>
-
-                <div className="cont-subtitles">
-                    <h3 className="subtitles-work">Objective</h3>
-                    <ul>
-                        <li>{ graphic.obj1 }</li>
-                        <li>{ graphic.obj2 }</li>
-                        <li>{ graphic.obj3 }</li>
-                        <li>{ graphic.obj4 }</li>
-                    </ul>
-                </div>
-
-                <div className="cont-subtitles">
-                    <h3 className="subtitles-work">Tools</h3>
-                    <ul>
-                        <li>{ graphic.tool1 }</li>
-                        <li>{ graphic.tool2 }</li>
-                        <li>{ graphic.tool3 }</li>
-                        <li>{ graphic.tool4 }</li>
-                    </ul>
-                </div>
-            </div>
-
             <div className="flex-row">
-                <div className='container-front__imgs'>
-                    <img className="img-front border-radius" key={graphic.image1} src={graphic.image1}></img>
-                    <img className="img-front border-radius" key={graphic.image2} src={graphic.image2}></img>
-                    <img className="img-front border-radius" key={graphic.image3} src={graphic.image3}></img>
-                    <img className="img-front border-radius" key={graphic.image4} src={graphic.image4}></img>
+                <div className="container-graphic__info">
+                    <div className="cont-subtitles">
+                        <h3 className="subtitles-work padding-top">Needs Solved</h3>
+                        <p key={graphic.needs}>{ graphic.needs }</p>
+                        <ul>
+                            <li className="list-section">{ graphic.needs1 }</li>
+                            <li className="list-section">{ graphic.needs2 }</li>
+                            <li className="list-section">{ graphic.needs3 }</li>
+                            <li className="list-section">{ graphic.needs4 }</li>
+                            <li className="list-section">{ graphic.needs5 }</li>
+                        </ul>
+                    </div>
+
+                    <div className="cont-subtitles">
+                        <h3 className="subtitles-work">Objective</h3>
+                        <ul>
+                            <li className="list-section">{ graphic.obj1 }</li>
+                            <li className="list-section">{ graphic.obj2 }</li>
+                            <li className="list-section">{ graphic.obj3 }</li>
+                            <li className="list-section">{ graphic.obj4 }</li>
+                        </ul>
+                    </div>
+
+                    <div className="cont-subtitles">
+                        <h3 className="subtitles-work">Tools</h3>
+                        <ul>
+                            <li className="list-section">{ graphic.tool1 }</li>
+                            <li className="list-section">{ graphic.tool2 }</li>
+                            <li className="list-section">{ graphic.tool3 }</li>
+                            <li className="list-section">{ graphic.tool4 }</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div className="flex-row">
+                    <div className='container-front__imgs'>
+                        <img className="img-front" key={graphic.image1} src={graphic.image1}></img>
+                        <img className="img-front" key={graphic.image2} src={graphic.image2}></img>
+                        <img className="img-front" key={graphic.image3} src={graphic.image3}></img>
+                        <img className="img-front" key={graphic.image4} src={graphic.image4}></img>
+                        <img className="img-front" key={graphic.image5} src={graphic.image5}></img>
+                    </div>
                 </div>
             </div>
         </section>
