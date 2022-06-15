@@ -25,7 +25,7 @@ export default function IntroPhrase() {
                 <div className='section-phrase__container'>
                     <p className='section-phrase__container__ph'>The essence of all my projects is <b>dedication</b>,<br></br> 
                     I always try to bring <b>efficiency</b>, <b>creativity</b> and <b>innovation</b>.</p>
-                    <button className='section-phrase__container__cta'><a className='link-anchor' href='/#works'>SEE MY PROJECTS</a></button>
+                    <button className='section-phrase__container__cta'><a className='link-anchor' href='#works'>SEE MY PROJECTS</a></button>
                 </div>
             </section> 
         </Animator>

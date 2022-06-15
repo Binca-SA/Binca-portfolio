@@ -10,11 +10,11 @@ export default function About() {
         
             <h1 className='container-about__title main-titles'>5 facts <br></br>about me <span className='subtitle-style'>TO KNOW <br></br>ME BETTER</span></h1>
             <div className='flex-desk-resp marg-bottom'>
-                <img className='container-about__img' src='/images/about/profile.jpg' alt='profile image of Binca'></img>
+                <img className='container-about__img' src='images/about/profile.jpg' alt='profile image of Binca'></img>
                 <div className='container-about__facts-container'>
                     <div className='container-about__facts-container__container-text'><span className='style-numbers'>1</span><p className='margin-top-bottom'>I started my career in the world of art and there i discovered 
                         graphic design, after my career I specialized 
-                        in digital design and web programming. <br></br><button className='style-link atom-margin-link'><a className='style-link' href='/#works'>> VIEW PROJECTS</a></button></p>
+                        in digital design and web programming. <br></br><button className='style-link atom-margin-link'><a className='style-link' href='#works'>> VIEW PROJECTS</a></button></p>
                     </div>
                     
                     <div className='container-about__facts-container__container-text'><span className='style-numbers'>2</span><p className='margin-top-bottom'>I am a naturally inquisitive person, so i make a lot of questions no matter what the point is.</p>

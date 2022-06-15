@@ -16,7 +16,7 @@ function FrontWorks(){
     const parameters = useParams();
     //getting json//
     useEffect(() => {
-        axios.get('/json/works.json')
+        axios.get('./json/works.json')
             .then(response => {
                 const selectedProject = response.data.find(project => project.id === parameters.id)
                 setFront(selectedProject)
@@ -32,9 +32,7 @@ function FrontWorks(){
                     <h1 className="container-info__intro__title main-titles" key={front.name}>{ front.name }</h1>
                     <p className="container-info__intro__p atom-margin-link" key={front.introduction}>{front.introduction}</p>
                 </div>
-                <video src={front.video} type="video/mp4" controls muted>
-                        <source src={front.video} type="video/mp4"></source>
-                </video>
+                <video  type="video/mp4" src={front.video} autoPlay loop muted controls></video>
             </div>
             <div className="container-front__btns">
                 <button className={"container-front__btns__btn " + (active === 'ux' ? 'active' : '')} onClick={() => setActive("ux")}>UX | UI</button>
