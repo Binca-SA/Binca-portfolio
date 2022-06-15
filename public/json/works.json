@@ -113,7 +113,7 @@
         "bestPractices3":"In each section there are links that take you to other sections, in this way we do not leave any section without an exit",
         "bestPractices4":"Design made from atom design, that is, designing by components.",
         "bestPractices5":"Create a simple interactive quiz to make the user feel involved and important. Consisting of 7 questions, by answering a question, a smooth scroll took the user to the next one, which required minimum effort.  The results vary according to the option chosen for each question. In this way, we offer user support and innovate in the online jewellery retail market.",
-        "wireframes":"images/works/terralava/wireframes-compr.jpg",
+        "wireframes":"../images/works/terralava/wireframes-compr.jpg",
         "":"",
         "frontGoal":"Move away from static programming. And learn how to dynamise content, using tools such as JavaScript and PHP",
         "bestPracticesF1":"Mobile first programming",

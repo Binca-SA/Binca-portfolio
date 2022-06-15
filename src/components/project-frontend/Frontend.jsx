@@ -16,7 +16,7 @@ function FrontWorks(){
     const parameters = useParams();
     //getting json//
     useEffect(() => {
-        axios.get('./json/works.json')
+        axios.get('../json/works.json')
             .then(response => {
                 const selectedProject = response.data.find(project => project.id === parameters.id)
                 setFront(selectedProject)
