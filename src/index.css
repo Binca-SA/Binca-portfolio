@@ -314,6 +314,11 @@ ul{
   padding: 0;
   cursor: pointer;
 }
+@media (max-width:900px) {
+  .style-link{
+    font-size: 2.2rem;
+  }
+}
 .link-anchor{
   text-decoration: none;
   color: black;

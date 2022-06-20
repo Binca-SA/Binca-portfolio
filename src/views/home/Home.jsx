@@ -18,7 +18,7 @@ export default function Home() {
     };
     
     useEffect(() => {
-        setTimeout(() => document.querySelector(window.location.hash).scrollIntoView(), 300);
+        setTimeout( () => document.querySelector(window.location.hash).scrollIntoView(), 300);
     }, [pathname]);
     
     return <section className='section-home' style={{ background: backgroundColor }}>
