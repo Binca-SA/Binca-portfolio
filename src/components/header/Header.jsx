@@ -15,15 +15,15 @@ export default function Header() {
         <>
         <section className='container-header'>
             <div className='logo'>
-                <a href='/binca-portfolio/'  className='home-link link'>BS</a>
+                <a href='/binca-portfolio/'  className='home-link link hover-style'>BS</a>
             </div>
             <div className='navbar'>
-                <Link to='#' onClick={showSidebar} className='menu-bars link'>MENU</Link>
+                <Link to='#' onClick={showSidebar} className='menu-bars link hover-style'>MENU</Link>
             </div>
             <nav className={sidebar ? 'nav-menu active': 'nav-menu'} id='navbar'>
                 <ul className="nav-menu-items" onClick={showSidebar}>
                     <li className="navbar-toggle">
-                        <Link to='#' className='menuBars link'><b>X</b></Link>
+                        <Link to='#' className='menuBars link '><b>X</b></Link>
                     </li>
                     <Navegation></Navegation>
                 </ul>

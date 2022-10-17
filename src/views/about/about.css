@@ -35,8 +35,8 @@
         width: 100%;
         height: 100%;
         border-radius: 14px;
-        margin-top:45px ;
-        margin-bottom: 45px;
+        /* margin-top:45px ;
+        margin-bottom: 45px; */
     }
         .subtitle-style{
             font-size:2rem;
@@ -53,7 +53,7 @@
                 display: flex;
                 column-gap: 2rem;
                 align-content: space-between;
-                align-items: flex-start;
+                align-items: center;
             }
 
 /*experience container*/
@@ -85,6 +85,9 @@
             list-style-type: none;
             padding-left: 20px;
             font-size: 1.8rem;
+            display: flex;
+            flex-direction: column;
+            row-gap: 1rem;
         }
 
 /*key skills section*/
@@ -147,7 +150,7 @@
         margin-top: -.5rem;
     }
     .flex-end{
-        margin-top: 50rem;
+        margin-top: 22rem; /*nse si esto afecta a otras cosas*/
         margin-bottom: 100px;
         display: flex;
         justify-content: flex-end;
@@ -188,7 +191,7 @@
     /*experience, tools. skills CONTAINERS*/
     .container-about__tools{
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
     }
         .container-about__tools__title{
             font-size: 4.5rem;
@@ -198,8 +201,8 @@
         margin-left: 0;
     }
     .container-about__container-skills__circle{
-        width: 17px;
-        height: 17px;
+        width: 11px;
+        height: 11px;
     }
     /* experience, tools, skills containers
         .container-about__tools{
@@ -250,4 +253,20 @@
         } */
         /*tools*/
         
+}
+.cta-btn-red {
+    font-size: 1.6rem;
+    /* color: var(--txt-cta); */
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    cursor: pointer;
+
+}
+.cta-btn-red:hover {
+    font-style:italic;
+}
+
+.marg-top-about {
+    margin-top: 4rem;
 }

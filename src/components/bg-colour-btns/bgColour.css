@@ -18,10 +18,7 @@
     .container-change-colour__color:nth-last-child(3){
         background-color: var(--home-bg-color);
     }
-    .container-change-colour__color:nth-last-child(3):focus{
-        border: none;
-        background: none;
-    }
+    
     /* .container-change-colour__color:nth-last-child(3):hover{
         -webkit-box-shadow: 3px 4px 36px 0px #E8464E; 
         box-shadow: 3px 4px 36px 0px var(--home-bg-color);
@@ -31,10 +28,7 @@
     .container-change-colour__color:nth-last-child(2){
         background-color: var(--home-bg-change-yellow);
     }
-    .container-change-colour__color:nth-last-child(2):focus{
-        border: none;
-        background: none;
-    }
+    
     /* .container-change-colour__color:nth-last-child(2):hover{
         -webkit-box-shadow: 3px 4px 36px 0px #E8464E; 
         box-shadow: 3px 4px 36px 0px var(--home-bg-change-yellow);
@@ -44,10 +38,7 @@
     .container-change-colour__color:nth-last-child(1){
         background-color: var(--home-bg-change-green);
     }
-    .container-change-colour__color:nth-last-child(1):focus{
-        border: none;
-        background: none;
-    }
+    
     /* .container-change-colour__color:nth-last-child(1):hover{
         -webkit-box-shadow: 3px 4px 36px 0px #E8464E; 
         box-shadow: 3px 4px 36px 0px var(--home-bg-change-green);

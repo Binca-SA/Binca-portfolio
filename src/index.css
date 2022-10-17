@@ -213,13 +213,14 @@ body {
   overflow-x: hidden;
 }
 p{
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   margin: 0;
 }
 
 h1, h2, h3, h4, h5{
   margin: 0;
 }
+
 li{
   font-size: 1.8rem;
 }
@@ -231,7 +232,7 @@ ul{
 @media (min-width:850px) {
   ul{
     font-size: 1.65rem;
-    padding: 1;
+    padding: 0;
   }
 }
 /* ul li::before {

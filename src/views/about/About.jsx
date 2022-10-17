@@ -9,12 +9,13 @@ export default function About() {
         {/* <Header></Header> */}
         
             <h1 className='container-about__title main-titles'>5 facts <br></br>about me <span className='subtitle-style'>TO KNOW <br></br>ME BETTER</span></h1>
-            <div className='flex-desk-resp marg-bottom'>
+            <div className='flex-desk-resp marg-top-about'>
                 <img className='container-about__img' src='images/about/profile.jpg' alt='profile image of Binca'></img>
                 <div className='container-about__facts-container'>
                     <div className='container-about__facts-container__container-text'><span className='style-numbers'>1</span><p className='margin-top-bottom'>I started my career in the world of art and there i discovered 
                         graphic design, after my career I specialized 
-                        in digital design and web programming. <br></br><button className='style-link atom-margin-link'><a className='style-link' href='#works'>> VIEW PROJECTS</a></button></p>
+                        in digital design and web programming.</p>
+                        
                     </div>
                     
                     <div className='container-about__facts-container__container-text'><span className='style-numbers'>2</span><p className='margin-top-bottom'>I am a naturally inquisitive person, so i make a lot of questions no matter what the point is.</p>
@@ -39,13 +40,30 @@ export default function About() {
                 in the digital world, creating a friendly and understandable environment for all audiences. My goal is to improve my skills 
                 and expand my knowledge, especially in web accessibility and learn more about CSS architecture to make scalable and maintainable 
                 projects.</p>
-                <div className='container-about__container-dates margin-top'>
+                <section className='container-about__container-dates margin-top'>
                     <div className='container-about__container-dates__circle'></div>
                     <p className=''><span>Jun. 2021 - Sept. 2021</span><br></br>
                         <b>Mediterrànnia Creativa -<br></br> Advertising and marketing agency</b>
                         <br></br>Intership as Graphic designer<br></br>and content creator for social media.
                     </p>
-                </div>
+                </section>
+                <section className='container-about__container-dates margin-top'>
+                    <div className='container-about__container-dates__circle'></div>
+                    <p className=''><span>Actually</span><br></br>
+                        <b>Live4Life - Online platform for student renting</b>
+                        <br></br>UX | UI designer <br></br>
+                        <p>Responsible for the user experience of the UI of the company's online platform.<br></br>
+                        Layout and implementation of the previous phases of design and creation of components with SASS and Vue. </p>
+                    </p>
+                </section>
+                <section className='container-about__container-dates margin-top'>
+                    <div className='container-about__container-dates__circle'></div>
+                    <p className=''><span>Actually</span><br></br>
+                        <b>Ananda - Clothing and accessories shop</b>
+                        <br></br>Content Creator <br></br>
+                        <p>Responsible for the shop's Instagram, doing modeling and product photography, reels.<br></br> At the same time interacting with users through stories, creating polls, questions and live videos.  </p>
+                    </p>
+                </section>
             </div>
         </div>
 
@@ -55,13 +73,13 @@ export default function About() {
                 <ul className='container-about__tools__list'>
                     <li>FIGMA</li>
                     <li>MIRO</li>
-                    <li>ADOBE PACK</li>
                     <ul>
-                        <li>premiere</li>
-                        <li>photoshop</li>
-                        <li>illustrator</li>
-                        <li>after effects</li>
-                        <li>in design</li>
+                        <b>ADOBE PACK</b>
+                        <li>Premiere</li>
+                        <li>Photoshop</li>
+                        <li>Illustrator</li>
+                        <li>After effects</li>
+                        <li>Indesign</li>
                     </ul>
                 </ul>
             </div>
@@ -74,11 +92,12 @@ export default function About() {
                     <li>Prepros</li>
                     <li>MAMP</li>
                     <li>SCSS</li>
-                    <li>Javascript</li>
+                    <li>SCSS</li>
                     <ul>
-                        <li>Framework: React</li>
+                        <b>Frontend frameworks for component creation and styling:</b>
+                        <li>React</li>
+                        <li>Vue</li>
                     </ul>
-                    <li>Wordpress</li>
                 </ul>
             </div>
         </div>
@@ -136,6 +155,8 @@ export default function About() {
                         <div className='container-about__container-skills__circle'></div>
                         <li className='list'>Adaptability to change</li>
                     </div>
+                    <a className='cta-btn-red' href='https://www.linkedin.com/in/binca-shinaasi-0b9792206/' target={'_blank'}>> See more skills on LINKEDIN</a>
+                    
                 </div>
             </div>
         </div>

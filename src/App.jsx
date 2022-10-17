@@ -14,6 +14,7 @@ import Footer from './components/footer/Footer';
 import Frontend from './components/project-frontend/Frontend';
 import ProjectGraphic from './components/project-graphic/ProjectGraphic';
 import { useLocation } from "react-router-dom";
+import Books from './views/books/Books';
 
 
 
@@ -40,6 +41,8 @@ function App() {
         <Route path="/about" element={<About />} />
 				
         <Route path="/archive" element={<Archive />} />
+
+        <Route path="/books" element={<Books />} />
         
         <Route path="*" element={<NoMatch />} />
 

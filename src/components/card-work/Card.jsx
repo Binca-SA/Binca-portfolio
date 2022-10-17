@@ -53,6 +53,23 @@ function GetWorks(){
                         </Link>
                     </div>
                 </>))}
+                {/* <div  className='container-cards__card' >
+                    <Link className='container-cards__card__link link-properties' to={`/l4l`}>
+                    
+                            <div className='cont-text'>
+                                <p className='container-cards__card__title'>Live4Life</p>
+                                <p className='container-cards__card__desc'>UX/UI designer of the online pltaform for stundents renting</p>
+                                <ul className='container-cards__card__tools'>
+                                    FIGMA
+                                </ul>
+                            </div>    
+
+                            <div className='cont-img'>
+                                <img className='container-cards__card__container-img' src={card.img}></img>
+                            </div>
+                        
+                    </Link>
+                </div> */}
             </section>
         </>
     );
