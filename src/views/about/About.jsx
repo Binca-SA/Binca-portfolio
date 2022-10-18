@@ -1,5 +1,6 @@
 import React from 'react';
 import './about.css';
+import { Link } from 'react-router-dom'
 // import Header from '../../components/header/Header';
 // import Contact from '../../components/contact/Contact';
 export default function About() {
@@ -54,6 +55,8 @@ export default function About() {
                         <br></br>UX | UI designer <br></br>
                         <p>Responsible for the user experience of the UI of the company's online platform.<br></br>
                         Layout and implementation of the previous phases of design and creation of components with SASS and Vue. </p>
+                        <br></br>
+                        <Link className='cta-btn-red color-red' to="/books">> View project</Link>
                     </p>
                 </section>
                 <section className='container-about__container-dates margin-top'>
@@ -62,6 +65,8 @@ export default function About() {
                         <b>Ananda - Clothing and accessories shop</b>
                         <br></br>Content Creator <br></br>
                         <p>Responsible for the shop's Instagram, doing modeling and product photography, reels.<br></br> At the same time interacting with users through stories, creating polls, questions and live videos.  </p>
+                        <br></br>
+                        <a className='cta-btn-red color-red' href='https://www.instagram.com/ananda_altea/' target={'_blank'}>> View INSTAGRAM</a>
                     </p>
                 </section>
             </div>
@@ -93,6 +98,8 @@ export default function About() {
                     <li>MAMP</li>
                     <li>SCSS</li>
                     <li>SCSS</li>
+                    <li>Github</li>
+                    <li>Git Bash</li>
                     <ul>
                         <b>Frontend frameworks for component creation and styling:</b>
                         <li>React</li>

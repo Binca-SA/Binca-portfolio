@@ -1,7 +1,27 @@
 [
     {
+        "title": "As an heaven",
+        "description": "Product photography for Ananda ",
+        "img":"images/archiveImgs/As-an-heaven.jpg"
+    },
+    {
+        "title": "Crossing a sunset",
+        "description": "Colour palette created from a photograph taken during an aeroplane flight ",
+        "img":"images/archiveImgs/crossing-a-sunset.jpg"
+    },
+    {
+        "title": "Mirage",
+        "description": "Product photography for Ananda",
+        "img":"images/archiveImgs/ananda-product-photo.jpg"
+    },
+    {
+        "title": "A Special light",
+        "description": "Product photography for Ananda",
+        "img":"images/archiveImgs/a-special-light.jpg"
+    },
+    {
         "title": "Create what you need to climb",
-        "description": "illustration where I put abstraction and gradients into practice",
+        "description": "Illustration where I put abstraction and gradients into practice",
         "tools":"Procreate",
         "img":"images/archiveImgs/illustration-vinil.jpg"
     },

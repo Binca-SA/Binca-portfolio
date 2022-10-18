@@ -1,3 +1,4 @@
+
 /* menu tipography */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&family=Space+Grotesk:wght@400;500&display=swap');
 
@@ -239,6 +240,13 @@ ul{
   color: var(--bg-focus-work);
 } */
 /*HELPERS -> Always at the end of the code*/
+.color-red {
+  color: #E8464E !important;
+}
+.color-red:hover{
+  color: black !important;
+}
+
 .margin-top-bottom{
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;

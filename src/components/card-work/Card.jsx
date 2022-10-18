@@ -30,8 +30,8 @@ function GetWorks(){
             <section id='works' className='container-cards mobile-margin margin-bottom'>
                 <h2 className='main-titles'>selected<br></br>works</h2>
                 <div className='container-cards__container-btns'>
-                    <button onClick={()=> setData('UX | UI')} className='container-cards__container-btns__btns'>UX</button>
-                    <button onClick={()=> setData('Frontend')} className='container-cards__container-btns__btns'>Frontend</button>
+                    <button onClick={()=> setData('UX | UI')} className='container-cards__container-btns__btns'>UX | UI</button>
+                    {/* <button onClick={()=> setData('Frontend')} className='container-cards__container-btns__btns'>Frontend</button> */}
                     <button onClick={()=> setData('Graphic Design')} className='container-cards__container-btns__btns'>Graphic Design</button>
                 </div>
                 {cardsToView.map(card=> (<>

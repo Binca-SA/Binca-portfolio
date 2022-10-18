@@ -264,7 +264,7 @@
 
 }
 .cta-btn-red:hover {
-    font-style:italic;
+    color: var(--txt-cta);
 }
 
 .marg-top-about {
