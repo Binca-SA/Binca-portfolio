@@ -44,6 +44,18 @@ function UxWorks(){
                 <li className="list-section" key={ux.bestPractices5}>{ ux.bestPractices5 }</li>
             </ul>
         </div>
+        <div className='container-front-section__fixed__ux__bestPractices'>
+            <div aria="button" className="cont-subtitles">
+                <h3 className="subtitles-work" key={ux.uxTitle}>{ ux.newTitle } </h3>
+            </div>
+            <ul className='container-front-section__fixed__ux'>
+                <li className="list-section" key={ux.uxThings}>{ ux.uxThings }</li>
+                <li className="list-section" key={ux.uxThings}>{ ux.uxThings }</li>
+                <li className="list-section" key={ux.uxThings}>{ ux.uxThings }</li>
+                <li className="list-section" key={ux.uxThings}>{ ux.uxThings }</li>
+                <li className="list-section" key={ux.uxThings}>{ ux.uxThings }</li>
+            </ul>
+        </div>
         <div className='container-front-section__fixed__ux__wireframes'>
             <div aria="button" className="cont-subtitles">
                 <h3 className="subtitles-work">Wireframes </h3>

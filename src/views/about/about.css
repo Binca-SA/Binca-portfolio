@@ -266,6 +266,12 @@
 .cta-btn-red:hover {
     color: var(--txt-cta);
 }
+@media (min-width:300px)and (max-width:600px) {
+    .cta-btn-red {
+        text-align: end;
+        margin-top: 1rem;
+    }
+}
 
 .marg-top-about {
     margin-top: 4rem;

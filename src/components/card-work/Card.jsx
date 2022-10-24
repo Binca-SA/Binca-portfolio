@@ -3,6 +3,7 @@ import './card.css';
 import axios from 'axios';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import LiveCard from './LiveCard';
 
 
 function GetWorks(){
@@ -34,6 +35,7 @@ function GetWorks(){
                     {/* <button onClick={()=> setData('Frontend')} className='container-cards__container-btns__btns'>Frontend</button> */}
                     <button onClick={()=> setData('Graphic Design')} className='container-cards__container-btns__btns'>Graphic Design</button>
                 </div>
+                {/* <LiveCard></LiveCard> */}
                 {cardsToView.map(card=> (<>
                     <div  className='container-cards__card' key={card.id}>
                         <Link className='container-cards__card__link link-properties' to={`/${card.category}/${card.id}`}>
@@ -53,23 +55,7 @@ function GetWorks(){
                         </Link>
                     </div>
                 </>))}
-                {/* <div  className='container-cards__card' >
-                    <Link className='container-cards__card__link link-properties' to={`/l4l`}>
-                    
-                            <div className='cont-text'>
-                                <p className='container-cards__card__title'>Live4Life</p>
-                                <p className='container-cards__card__desc'>UX/UI designer of the online pltaform for stundents renting</p>
-                                <ul className='container-cards__card__tools'>
-                                    FIGMA
-                                </ul>
-                            </div>    
-
-                            <div className='cont-img'>
-                                <img className='container-cards__card__container-img' src={card.img}></img>
-                            </div>
-                        
-                    </Link>
-                </div> */}
+                
             </section>
         </>
     );

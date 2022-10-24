@@ -1,5 +1,18 @@
 [
     {
+        "id": "live",
+        "name":"Live4Life",
+        "video":"../images/about/about-vide.mp4",
+        "category": "frontend",
+        "filter":["Frontend", "UX | UI"],
+        "description": "One page presentation",
+        "tools": ["HTML", "SCSS", "JS", "FIGMA"],
+        "introduction":"My first work as a UX|UI designer and Frontend. Design and prototyped one page web presentation about me. With horizontal navigation and mobile first designed.",
+        "uxThings":"new",
+        "newTitle":"Nuevo titiulo"
+
+    },
+    {
         "id": "about-me",
         "name":"About Me",
         "video":"../images/about/about-vide.mp4",

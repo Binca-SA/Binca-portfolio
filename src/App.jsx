@@ -15,6 +15,8 @@ import Frontend from './components/project-frontend/Frontend';
 import ProjectGraphic from './components/project-graphic/ProjectGraphic';
 import { useLocation } from "react-router-dom";
 import Books from './views/books/Books';
+import LivePage from './views/live/Live';
+
 
 
 
@@ -37,7 +39,9 @@ function App() {
         <Route path='/frontend/:id' element={<Frontend />}/>
         
         <Route path='/graphic-design/:id' element={<ProjectGraphic />}/>
-        
+
+        <Route path="/live" element={<LivePage />} />
+				
         <Route path="/about" element={<About />} />
 				
         <Route path="/archive" element={<Archive />} />

@@ -56,7 +56,7 @@ export default function About() {
                         <p>Responsible for the user experience of the UI of the company's online platform.<br></br>
                         Layout and implementation of the previous phases of design and creation of components with SASS and Vue. </p>
                         <br></br>
-                        <Link className='cta-btn-red color-red' to="/books">> View project</Link>
+                        <Link className='cta-btn-red color-red' to="/live">> View project</Link>
                     </p>
                 </section>
                 <section className='container-about__container-dates margin-top'>
