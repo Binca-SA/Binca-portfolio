@@ -16,6 +16,7 @@ import ProjectGraphic from './components/project-graphic/ProjectGraphic';
 import { useLocation } from "react-router-dom";
 import Books from './views/books/Books';
 import LivePage from './views/live/Live';
+import Weliving from './views/weliving/Weliving';
 
 
 
@@ -41,6 +42,8 @@ function App() {
         <Route path='/graphic-design/:id' element={<ProjectGraphic />}/>
 
         <Route path="/live" element={<LivePage />} />
+
+        <Route path="/weliving" element={<Weliving />} />
 				
         <Route path="/about" element={<About />} />
 				

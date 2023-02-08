@@ -56,7 +56,8 @@ export default function About() {
                         <p>Responsible for the user experience of the UI of the company's online platform.<br></br>
                         Layout and implementation of the previous phases of design and creation of components with SASS and Vue. </p>
                         <br></br>
-                        <Link className='cta-btn-red color-red' to="/live">> View project</Link>
+                        {/* <Link className='cta-btn-red color-red' to="/live">> View project</Link> */}
+                        <a className='cta-btn-red color-red' href='https://live4life.site/' target={'_blank'}>> View website</a>
                     </p>
                 </section>
                 <section className='container-about__container-dates margin-top'>
@@ -116,7 +117,7 @@ export default function About() {
                         <div className='container-about__container-dates__circle'></div>
                         <p>2021-2022<br></br><b>MASTER ID3: UX|UI DESIGN,<br></br>FRONT-END & DIGITAL MARKETING</b><br></br>ESAT, VALENCIA</p>
                     </div>
-                    <div className='container-about__container-dates margin-top'>
+                    <div className='container-about__container-dates'>
                         <div className='container-about__container-dates__circle'></div>
                         <p>2017-2021<br></br><b>FINE ARTS & GRAPHIC DESIGN<br></br>DEGREE</b><br></br>UNIVERSIDAD MIGUEL<br></br>HERNÁNDEZ, ALTEA</p>
                     </div>

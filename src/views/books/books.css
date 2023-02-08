@@ -31,8 +31,8 @@
     }
     .container__book__author {
         font-family: var(--title-card-font);
-        font-weight: 'ClashGrotesk-Light';
-        font-size: 2.5rem;
+        font-variation-settings: var(--subtitleMob-card-font);
+        font-size: 2rem;
         color: var(--dark-grey);
     }
 

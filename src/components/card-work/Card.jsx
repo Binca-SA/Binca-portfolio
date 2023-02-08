@@ -38,7 +38,7 @@ function GetWorks(){
                 {/* <LiveCard></LiveCard> */}
                 {cardsToView.map(card=> (<>
                     <div  className='container-cards__card' key={card.id}>
-                        <Link className='container-cards__card__link link-properties' to={`/${card.category}/${card.id}`}>
+                    <Link className='container-cards__card__link link-properties' to={`/${card.open_on_page ? card.id : card.category+'/'+card.id}`}>
                         
                                 <div className='cont-text'>
                                     <p className='container-cards__card__title'>{card.name}</p>
